@@ -1,23 +1,58 @@
-header {
+//Header
+
+
+@use "./mixins"as *;
+@use "./variables"as *;
+
+
+.head {
     display: flex;
     justify-content: space-between;
-    width: 100%;
     background-color: black;
-    height: 50px;
-    z-index: 1000;
+    width: 100%
+}
 
-    @media (min-width:$desktop) {
-        display: flex;
+.logo {
+    display: block;
+    padding: 0px 10px 10px 20px;
+}
 
-    }
+
+.header-nav {
+    display: none;
+    position: fixed;
+
+}
+
+.header-nav ul {
+    position: fixed;
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+
+}
+
+.head-link {
+    margin: 0 auto;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0px 20px 0px 15px;
 
 
-    a {
-        text-decoration: none;
-    }
 
-    a:hover {
+
+
+    &:hover,
+    &:focus,
+    &:active {
         text-decoration: underline;
+        text-decoration-color: pink;
     }
+}
+
+.logo .header-nav {
+    display: flex;
 
 }

@@ -8,8 +8,8 @@ function NavBar () {
     }
 
  return (
-     <div>
-         <nav className="site-naviagtion" onClick={handleBlurOnClick}>
+     <div className="nav-container">
+         <nav className="site-navigation" onClick={handleBlurOnClick}>
              <ul>
                  <li><NavLink className="nav-link" to="/">Home</NavLink></li>
                  <li><NavLink className="nav-link" to="/about">About</NavLink></li>
