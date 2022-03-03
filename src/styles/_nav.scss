@@ -19,16 +19,16 @@
 .site-navigation {
     display: flex;
     justify-content: center;
-    background-color: #161C24;
+    background-color: red;
     height: 0;
     right: 10px;
     overflow: hidden;
     visibility: hidden;
-    transition: height 0, 0.8s ease-in-out, visibility 1s;
+    // transition: height 0, .08ss ease-in-out, visibility 1s;
     z-index: 999;
 
     .show & {
-        transition: height 0.8s ease, visibility 1s;
+        transition: height 2s ease-in-out, visibility 1s;
         visibility: visible;
         height: 380px;
         display: block;
@@ -70,6 +70,7 @@
 .btn-main-nav {
     display: block;
     margin: 0 auto;
+    height: 0;
     padding: 15px 10px 40px 180px;
     border: none;
     background: none;
@@ -80,8 +81,9 @@
     }
 
     .line-1 {
-        width: 20px;
+        width: 15px;
         height: 3px;
+        border-radius: 5px;
         background-color: rgb(233, 232, 232);
         display: block;
         margin: 5px auto;
@@ -107,8 +109,9 @@
     }
 
     .line-2 {
-        width: 30px;
+        width: 20px;
         height: 3px;
+        border-radius: 5px;
         background-color: rgb(233, 232, 232);
         display: block;
         margin: 5px auto;
@@ -134,8 +137,9 @@
     }
 
     .line-3 {
-        width: 40px;
+        width: 30px;
         height: 3px;
+        border-radius: 5px;
         background-color: rgb(233, 232, 232);
         display: block;
         margin: 5px auto;
@@ -147,7 +151,7 @@
 
         .show &:nth-child(1),
         .btn-main-nav.show .line:nth-child(3) {
-            transition-delay: 0.3s;
+            transition-delay: 1s;
         }
 
         .show &:nth-child(1) {
@@ -161,8 +165,8 @@
     }
 
     .show & {
-        transition: all 0.3s ease-in-out;
-        transition-delay: 0.6s;
-        transform: rotate(45deg);
+        transition: all 2s ease-in-out;
+        transition-delay: 1s;
+        // transform: rotate(45deg);
     }
 }
