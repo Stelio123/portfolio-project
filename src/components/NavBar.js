@@ -15,7 +15,6 @@ function Nav() {
                     <li><NavLink className="nav-link" to="/">Home</NavLink></li>
                     <li><NavLink className="nav-link" to="/about">About</NavLink></li>
                     <li><NavLink className="nav-link" to="/Projects">Projects</NavLink></li>
-                    <li><NavLink className="nav-link" to="/for-fun">Fun</NavLink></li>
                     <li><NavLink className="nav-link" to="/contact">Contact</NavLink></li> 
                 </ul>
             </nav>  

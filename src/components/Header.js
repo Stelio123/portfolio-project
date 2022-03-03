@@ -14,7 +14,7 @@ function Header() {
     return (
         <header className='head'>
                 <div className="logo">
-                    <Link to= '/'><img src={require('./images/logo.png')} alt='logo' /></Link>
+                    <Link to= '/'><img src={require('../assets/images/logo.png')} alt='logo' /></Link>
                 </div>
                 <div id="site-navigation" className={navOpen ? 'show' : 'hide'} >
                     <button className="btn-main-nav" onMouseDown={(e) => {e.preventDefault(); }}
