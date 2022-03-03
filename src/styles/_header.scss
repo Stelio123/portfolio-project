@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+    z-index: 1000;
+
+    @media (min-width:$desktop) {
+        display: flex;
+
+    }
+
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+}
