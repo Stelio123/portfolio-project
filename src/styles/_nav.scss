@@ -17,31 +17,34 @@
 // }
 
 .site-navigation {
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    background-color: #161C24;
     height: 0;
     right: 10px;
     overflow: hidden;
     visibility: hidden;
-    transition: height 0, 0.5s ease-in-out, visibility 1s;
+    transition: height 0, 0.8s ease-in-out, visibility 1s;
     z-index: 999;
 
     .show & {
-        transition: height 0.5s ease, visibility 1s;
+        transition: height 0.8s ease, visibility 1s;
         visibility: visible;
         height: 380px;
         display: block;
         top: 3.15rem;
         width: 100%;
-        border-bottom: 3px solid green;
+        border-bottom: 3px solid#161C24;
         z-index: 999;
 
     }
 
     a.nav-link {
-        color: red;
+        color: white;
         text-decoration: none;
         display: block;
-        line-height: 50px;
+        margin-right: 5rem;
+        line-height: 60px;
         font-size: 1.1em;
         font-weight: bold;
         padding: 0 28px;
@@ -50,11 +53,13 @@
         &:focus,
         &:active {
             text-decoration: underline;
-            text-decoration-color: blue;
+            text-decoration-color: white;
         }
 
 
     }
+
+
 
     li {
         text-align: center;
@@ -64,8 +69,8 @@
 
 .btn-main-nav {
     display: block;
-    padding-top: 15px;
-    padding-right: 15px;
+    margin: 0 auto;
+    padding: 15px 10px 40px 180px;
     border: none;
     background: none;
 
@@ -74,13 +79,67 @@
         cursor: pointer;
     }
 
-    .line {
+    .line-1 {
         width: 20px;
         height: 3px;
         background-color: rgb(233, 232, 232);
         display: block;
         margin: 5px auto;
-        transition: all 0.5s ease-in-out;
+        transition: all 0.8s ease-in-out;
+
+        .show &:nth-child(2) {
+            width: 0;
+        }
+
+        .show &:nth-child(1),
+        .btn-main-nav.show .line:nth-child(3) {
+            transition-delay: 0.3s;
+        }
+
+        .show &:nth-child(1) {
+            transform: translateY(5px);
+        }
+
+        .show &:nth-child(3) {
+            transform: translateY() rotate(90deg);
+        }
+
+    }
+
+    .line-2 {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(233, 232, 232);
+        display: block;
+        margin: 5px auto;
+        transition: all 0.8s ease-in-out;
+
+        .show &:nth-child(2) {
+            width: 0;
+        }
+
+        .show &:nth-child(1),
+        .btn-main-nav.show .line:nth-child(3) {
+            transition-delay: 0.3s;
+        }
+
+        .show &:nth-child(1) {
+            transform: translateY(5px);
+        }
+
+        .show &:nth-child(3) {
+            transform: translateY() rotate(90deg);
+        }
+
+    }
+
+    .line-3 {
+        width: 40px;
+        height: 3px;
+        background-color: rgb(233, 232, 232);
+        display: block;
+        margin: 5px auto;
+        transition: all 0.8s ease-in-out;
 
         .show &:nth-child(2) {
             width: 0;
