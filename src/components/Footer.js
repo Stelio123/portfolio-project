@@ -1,8 +1,11 @@
 // Footer 
 import {Link} from 'react-router-dom';
-
+import React from "react";
+import ButtonMailto from './ButtonMailto';
 
 function Footer () {
+
+
 
     return(
         <footer>
@@ -21,12 +24,11 @@ function Footer () {
                     </svg></Link>
 
                 </div>
-                <div className='email'>
-                  <Link to='/'><svg xmlns="http://www.w3.org/2000/svg" width="35" height="28" viewBox="0 0 35 28">
+               <div className='email'>
+                    <Link to='/'><svg xmlns="http://www.w3.org/2000/svg" width="35" height="28" viewBox="0 0 35 28">
                         <path id="Icon_material-email" data-name="Icon material-email" d="M34.5,6H6.5A3.5,3.5,0,0,0,3.017,9.5L3,30.5A3.51,3.51,0,0,0,6.5,34h28A3.51,3.51,0,0,0,38,30.5V9.5A3.51,3.51,0,0,0,34.5,6Zm0,7-14,8.75L6.5,13V9.5l14,8.75,14-8.75Z" 
                         transform="translate(-3 -6)" fill="#FFFFFF"/>
                     </svg></Link>
-
                 </div>
 
             </div>
