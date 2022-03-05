@@ -3,5 +3,35 @@
 //home
 
 .home-container {
-    text-align: center;
+    text-align: left;
 }
+
+
+
+
+// About
+
+.tool-container {
+    display: flex;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.dev-list,
+.design-list {
+    list-style: none;
+    color: white;
+}
+
+
+
+
+//Work
+
+
+
+
+//Contact
