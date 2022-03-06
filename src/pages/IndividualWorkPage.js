@@ -18,7 +18,7 @@ function IndividualWorkPage() {
     <main>
       {project !== null && (
        <div>
-         <h2>{project.title}</h2>
+         <h1>{project.title}</h1>
       </div>         
       )}
     </main>

@@ -14,5 +14,20 @@ export const ProjectData = [
         title: 'Calculator',
         image: <img src={require('../assets/images/calculator.png')} alt='calculator'/>,
         slug: 'calculator'
+    },
+    {
+        title: 'Capstone',
+        image: '',
+        slug: 'massagetherapy'
+    },
+    {
+        title: 'Portfolio',
+        image: '',
+        slug: 'portfolio'
+    },
+    {
+        title: 'Design Brief',
+        image: '',
+        slug: 'designbrief'
     }
 ]
