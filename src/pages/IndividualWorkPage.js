@@ -19,6 +19,23 @@ function IndividualWorkPage() {
       {project !== null && (
        <div>
          <h1>{project.title}</h1>
+         {project.image}
+         <p>{project.links}</p>
+         <p>{project.summary}</p>
+         <p>{project.tools}</p>
+         <h3>{project.mockTitle}</h3>
+         <p>{project.mockUp}</p>
+         <h3>{project.designTitle}</h3>
+         <p>{project.design}</p>
+         <h3>{project.colourTitle}</h3>
+         <p>{project.colour}</p>
+         <h3>{project.functionTitle}</h3>
+         <h4>{project.spefFunTitle}</h4>
+         <p>{project.funcSum}</p>
+         <h4>{project.rest}</h4>
+         <p>{project.restSum}</p>
+         <h4>{project.responsive}</h4>
+         <p>{project.respSum}</p>
       </div>         
       )}
     </main>

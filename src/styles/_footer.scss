@@ -3,8 +3,9 @@
 @use "./mixins"as *;
 
 footer {
-    position: sticky;
-    margin-top: 40rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-icons {
@@ -19,7 +20,7 @@ footer {
         padding: 15px;
         display: flex;
         align-items: center;
-        margin: 0px 10px 0px 20px;
+        margin: 0px 10px 0px 10px;
 
         &:hover,
         &:focus,
