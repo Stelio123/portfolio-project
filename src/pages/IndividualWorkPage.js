@@ -24,10 +24,12 @@ function IndividualWorkPage() {
          <p>{project.summary}</p>
          <p>{project.tools}</p>
          <h3>{project.mockTitle}</h3>
+         {project.mockUpImage}
          <p>{project.mockUp}</p>
          <h3>{project.designTitle}</h3>
          <p>{project.design}</p>
          <h3>{project.colourTitle}</h3>
+        {project.colourImage}
          <p>{project.colour}</p>
          <h3>{project.functionTitle}</h3>
          <h4>{project.spefFunTitle}</h4>

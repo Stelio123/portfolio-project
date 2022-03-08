@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 
 function Home() {
   return (
@@ -6,8 +7,12 @@ function Home() {
       <h1>Stelio Langaditis</h1>
       <h1>Welcome</h1>
       <p>Front-end web developer + designer</p>
+      <div className='btn-container'>
+        <h3>See my work.. ( ͡♥ ͜ʖ ͡♥)</h3>
+      <Link to='work'><button className='btn'>click me</button></Link>
+      </div>
     </div>
   )
 }
 
-export default Home
+export default Home;
