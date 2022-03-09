@@ -19,3 +19,13 @@
 //Imports
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Spline+Sans&display=swap');
 @import "react-slideshow-image/dist/styles.css";
+
+@font-face {
+    font-family: 'Bosch';
+    src: local('Bosch'), url(../assets/fonts/Bosch.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Pulchella';
+    src: local('Pulchella'), url(../assets/fonts/Pulchella.ttf) format('truetype');
+}

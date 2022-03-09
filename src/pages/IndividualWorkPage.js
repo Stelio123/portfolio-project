@@ -26,7 +26,7 @@ function IndividualWorkPage() {
          <p>{project.tools}</p>
          <h3>{project.mockTitle}</h3>
          <img src={project.mockUpImage} alt='mock up'/> 
-         <img src={project.mockUpImage2} alt='mock up 2'/>
+          {project.mockUpImage2}
          <p>{project.mockUp}</p>
          <h3>{project.designTitle}</h3>
          <p>{project.design}</p>

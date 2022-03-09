@@ -30,7 +30,7 @@ export const ProjectData = [
         tools: 'JavaScript, jQuery, HTML, CSS',
         links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href="https://steliocodes.com/minesweeper/" target='_blank' alt='github'>Live Site</a>],
         mockUpImage:require('../assets/images/minesweeper-home.png') ,
-        mockUpImage2:require('../assets/images/main-screen.png'),
+        mockUpImage2:<img src= {require('../assets/images/main-screen.png')} alt='second mock up'/>,
         colourTitle:'Colour Palette',
         colourImage: require('../assets/images/ms-colours.png'),
         colour: '#136377, #fcec0c, #6a0dad',

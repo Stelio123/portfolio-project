@@ -21,7 +21,6 @@ function AppRouter() {
     <div className="wrapper">
       <Header/>
       <NavBar/>
-      <main>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="about" element={<About/>}/>
@@ -29,7 +28,6 @@ function AppRouter() {
           <Route path="/:slug" element={<IndividualWorkPage/>}/>
           <Route path ="contact" element={<Contact/>}/>
         </Routes>
-      </main>
       <Footer/>
     </div>
     </BrowserRouter>

@@ -3,8 +3,8 @@
 @use "./mixins"as *;
 
 footer {
-    left: 0;
-    bottom: 0;
+
+
     width: 100%;
 }
 
@@ -12,6 +12,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 
 
     .linkedin,

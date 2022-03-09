@@ -3,7 +3,10 @@
 @use "./mixins"as *;
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
     max-width: em(1000);
     margin: 0 auto;
     border-radius: 15px;
+    min-height: 100vh;
 }

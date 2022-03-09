@@ -1,27 +1,24 @@
-import React from 'react'
+import React from 'react';
 import {Link} from 'react-router-dom';
+import backgroundVideo from '../assets/videos/background-video.mp4';
 
 function Home() {
 
-//   $(window).on('load', addNoise);
 
-// function addNoise() {
-//   $('.loader').text('Bring in \'da noise!');
-//   $('.noise-wrapper').css('opacity',1);
-// }
   return (
-    <>
-    <video autoplay loop id="myVideo">
-      <source src='../assets/videos/background-video.mp4' type="video/mp4"/>
+    <main className='main-home'>
+
+    <video autoPlay loop muted paused id="myVideo">
+      <source src={backgroundVideo} type="video/mp4"/>
     </video>
     <div className='home-container'>
-      <h1>Stelio Langaditis</h1>
-      <p>Front-end web developer + designer</p>
+      <h1 className='name'>Stelio Langaditis</h1>
+      <p className='tag-line'>Front-end web developer</p>
       <div className='btn-container'>
         <Link to='work'><button className='btn'>click me</button></Link>
       </div>
     </div>
-    </>
+    </main>
   )
 }
 

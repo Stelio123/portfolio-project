@@ -23,6 +23,7 @@ const fadeImages = [
 
 const Slideshow = () => {
   return (
+    <main>
     <div className="slide-container">
       <h1>My Works</h1>
       <Fade>
@@ -38,6 +39,7 @@ const Slideshow = () => {
         ))}
       </Fade>
     </div>
+  </main>  
   )
 }
  export default Slideshow
