@@ -2,17 +2,17 @@ export const ProjectData = [
     
     {
         title: 'Movie Database',
-        image: <img src={require('../assets/images/snos-logo-1.png')} alt='movie database'/>,
+        image: require('../assets/images/snos.png'),
         summary: 'SNOS Movies is a single page web built in React. SNOS Movies utilizes REST API to allow users to find up-to-date information about popular, top rated, now playing, and upcoming movies. Users are also able to add movies to their favourites.',
         tools: 'React, Sass, REST API',
         links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href='https://steliocodes.com/snos-movies/' target='_blank' alt='movie databe wesite' >Live Site</a>],
         mockTitle: 'Mock-Up',
-        mockUpImage:  <img src={require('../assets/images/mdb.png')} alt='minesweeper'/>,
+        mockUpImage:  require('../assets/images/mdb.png'),
         mockUp: 'High fidelity mock-up created in Adobe XD to serve as a model for the user interface design.',
         designTitle: 'Design',
         design: 'The website design is simple and focused on the movies with clean rows and minimal.',
         colourTitle: 'Colour Palette',
-        colourImage:  <img src={require('../assets/images/mdb-colour.png')} alt='minesweeper'/>,
+        colourImage:  require('../assets/images/mdb-colour.png'),
         colour: '#0B0B0B, #FFFFFF, #BF451C',
         functionTitle: 'Functionality',
         spefFunTitle:'Add to favourites',
@@ -25,20 +25,18 @@ export const ProjectData = [
     },
     {
         title: 'JavaScript Game',
-        image: <img src={require('../assets/images/minesweeper.png')} alt='minesweeper'/>,
-        summary: 'Made a partially built game playable by adding new functionality improving the overall game. I designed this mine sweeper clone using vanilla JavaScript and jQuery. All styling was done using CSS.',
+        image:require('../assets/images/minesweep.png'),
+        summary: 'Developed and designed a mine sweeper clone using vanilla JavaScript and jQuery. All styling was done using CSS. With this project being my first time implementing my skills in JavaScript to create a web application, I am very proud of the outcome. ',
         tools: 'JavaScript, jQuery, HTML, CSS',
         links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href="https://steliocodes.com/minesweeper/" target='_blank' alt='github'>Live Site</a>],
+        mockUpImage:require('../assets/images/minesweeper-home.png') ,
+        mockUpImage2:require('../assets/images/main-screen.png'),
         colourTitle:'Colour Palette',
+        colourImage: require('../assets/images/ms-colours.png'),
         colour: '#136377, #fcec0c, #6a0dad',
         functionTitle:'Functionality',
         funcSum: 'figure out what to say',
         slug: 'minesweeper'
-    },
-    {
-        title: 'Calculator',
-        image: <img src={require('../assets/images/calculator.png')} alt='calculator'/>,
-        slug: 'calculator'
     },
     {
         title: 'Capstone',
@@ -49,10 +47,5 @@ export const ProjectData = [
         title: 'Portfolio',
         image: '',
         slug: 'portfolio'
-    },
-    {
-        title: 'Design Brief',
-        image: <img src={require('../assets/images/html.png')} alt='design brief'/>,
-        slug: 'designbrief'
     }
 ]

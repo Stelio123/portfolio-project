@@ -4,6 +4,7 @@ import {useParams} from 'react-router-dom';
 import  {useEffect, useState} from 'react';
 
 
+
 function IndividualWorkPage() {
 
     const { slug } =  useParams();
@@ -19,17 +20,18 @@ function IndividualWorkPage() {
       {project !== null && (
        <div>
          <h1>{project.title}</h1>
-         {project.image}
+         <img src={project.image} alt='project'/>
          <p>{project.links}</p>
          <p>{project.summary}</p>
          <p>{project.tools}</p>
          <h3>{project.mockTitle}</h3>
-         {project.mockUpImage}
+         <img src={project.mockUpImage} alt='mock up'/> 
+         <img src={project.mockUpImage2} alt='mock up 2'/>
          <p>{project.mockUp}</p>
          <h3>{project.designTitle}</h3>
          <p>{project.design}</p>
          <h3>{project.colourTitle}</h3>
-        {project.colourImage}
+         <img src={project.colourImage} alt='colour palette'/> 
          <p>{project.colour}</p>
          <h3>{project.functionTitle}</h3>
          <h4>{project.spefFunTitle}</h4>

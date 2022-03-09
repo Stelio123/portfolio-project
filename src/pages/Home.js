@@ -8,7 +8,6 @@ function Home() {
       <h1>Welcome</h1>
       <p>Front-end web developer + designer</p>
       <div className='btn-container'>
-        <h3>See my work.. ( ͡♥ ͜ʖ ͡♥)</h3>
       <Link to='work'><button className='btn'>click me</button></Link>
       </div>
     </div>
