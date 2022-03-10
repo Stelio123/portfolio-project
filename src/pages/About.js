@@ -1,11 +1,16 @@
 import React from 'react'
+import backgroundVideo from '../assets/videos/about-vid1.mp4';
 
 function About() {
   return (
-      <div>
-        <h1>About</h1>
+ <main className='main-about'>
+    <video autoPlay loop muted paused id="myVideo">
+      <source src={backgroundVideo} type="video/mp4"/>
+    </video>   
+     <div className='about-container'>
+        <h1>About Me</h1>
           <p>I'm a front end web developer and web designer based in Vancouver, BC.
-          I design simple but highly functional interactive and responsive websites.</p>
+          I design simple but highly functional, interactive and responsive websites.</p>
         <div>
           <h3>My toolkit</h3>
             <div className='tool-container'>
@@ -31,6 +36,8 @@ function About() {
             </div>   
         </div>
       </div>
+ </main>
+    
   )
 }
 

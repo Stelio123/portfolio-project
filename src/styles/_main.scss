@@ -24,7 +24,7 @@
     font-family: 'Pulchella', serif;
     color: white;
     text-transform: uppercase;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .tag-line {
@@ -45,7 +45,7 @@
 }
 
 
-.btn {
+.cta-work {
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -56,8 +56,30 @@
 
 // About
 
+.main-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.about-container {
+    position: fixed;
+    bottom: 12rem;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
 .tool-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid white;
+
 
     ul {
         display: flex;
@@ -71,10 +93,47 @@
     color: white;
 }
 
+img {
+    z-index: 10;
+}
+
 
 
 
 //Work
+
+
+.slide-container {
+    bottom: 14rem;
+}
+
+.image-container {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+
+.work-title,
+.project-title,
+.summary-caption {
+    text-align: center;
+}
+
+
+
+
+//Individual
+
+.main-individual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    text-align: center;
+}
 
 
 
@@ -86,4 +145,23 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    text-align: center;
+}
+
+.contact-container {
+    position: fixed;
+    bottom: 20rem;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.cta-contact {
+    color: black;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
 }

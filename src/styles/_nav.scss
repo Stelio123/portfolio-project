@@ -23,157 +23,157 @@
 //     border: 0;
 // }
 
-.site-navigation {
-    display: flex;
-    justify-content: center;
-    // background-color: #161C24;
-    height: 0;
-    right: 10px;
-    overflow: hidden;
-    visibility: hidden;
-    transition: height 0, .08ss ease-in-out, visibility 1s;
-    z-index: 999;
+// .site-navigation {
+//     display: flex;
+//     justify-content: center;
+//     // background-color: #161C24;
+//     height: 0;
+//     right: 10px;
+//     // overflow: hidden;
+//     // visibility: hidden;
+//     // transition: height 0, .08ss ease-in-out, visibility 1s;
+//     z-index: 999;
 
-    .show & {
-        transition: height 2s ease-in-out, visibility 1s;
-        visibility: visible;
-        height: 380px;
-        display: block;
-        top: 3.15rem;
-        width: 100%;
-        // border-bottom: 3px solid#161C24;
-        z-index: 999;
+// .show & {
+//     transition: height 2s ease-in-out, visibility 1s;
+//     visibility: visible;
+//     height: 380px;
+//     display: block;
+//     top: 3.15rem;
+//     width: 100%;
+//     // border-bottom: 3px solid#161C24;
+//     z-index: 999;
 
-    }
+// }
 
-    a.nav-link {
-        color: white;
-        text-decoration: none;
-        display: block;
-        margin-right: 5rem;
-        line-height: 60px;
-        font-size: 1.1em;
-        font-weight: bold;
-        padding: 0 28px;
-        text-align: center;
-        list-style-type: none;
+// a.nav-link {
+//     color: white;
+//     text-decoration: none;
+//     display: block;
+//     margin-right: 5rem;
+//     line-height: 60px;
+//     font-size: 1.1em;
+//     font-weight: bold;
+//     padding: 0 28px;
+//     text-align: center;
+//     list-style-type: none;
 
-        &:hover,
-        &:focus,
-        &:active {
-            text-decoration: underline;
-            text-decoration-color: white;
-        }
-    }
-
-
-
-    li {
-        text-align: center;
-        list-style-type: none;
-    }
-}
-
-.btn-main-nav {
-    display: block;
-    margin: 0 auto;
-    height: 0;
-    padding: 15px 10px 40px 180px;
-    border: none;
-    background: none;
+//     &:hover,
+//     &:focus,
+//     &:active {
+//         text-decoration: underline;
+//         text-decoration-color: white;
+//     }
+// }
 
 
-    &:hover {
-        cursor: pointer;
-    }
 
-    .line-1 {
-        width: 15px;
-        height: 3px;
-        border-radius: 5px;
-        background-color: rgb(233, 232, 232);
-        display: block;
-        margin: 5px auto;
-        transition: all 0.8s ease-in-out;
+// li {
+//     text-align: center;
+//     list-style-type: none;
+// }
+// }
 
-        .show &:nth-child(2) {
-            width: 0;
-        }
+// .btn-main-nav {
+//     display: block;
+//     margin: 0 auto;
+//     height: 0;
+//     padding: 15px 10px 40px 180px;
+//     border: none;
+//     background: none;
 
-        .show &:nth-child(1),
-        .btn-main-nav.show .line:nth-child(3) {
-            transition-delay: 0.3s;
-        }
 
-        .show &:nth-child(1) {
-            transform: translateY(5px);
-        }
+//     &:hover {
+//         cursor: pointer;
+//     }
 
-        .show &:nth-child(3) {
-            transform: translateY() rotate(90deg);
-        }
+//     .line-1 {
+//         width: 15px;
+//         height: 3px;
+//         border-radius: 5px;
+//         background-color: rgb(233, 232, 232);
+//         display: block;
+//         margin: 5px auto;
+//         transition: all 0.8s ease-in-out;
 
-    }
+//         .show &:nth-child(2) {
+//             width: 0;
+//         }
 
-    .line-2 {
-        width: 20px;
-        height: 3px;
-        border-radius: 5px;
-        background-color: rgb(233, 232, 232);
-        display: block;
-        margin: 5px auto;
-        transition: all 0.8s ease-in-out;
+//         .show &:nth-child(1),
+//         .btn-main-nav.show .line:nth-child(3) {
+//             transition-delay: 0.3s;
+//         }
 
-        .show &:nth-child(2) {
-            width: 0;
-        }
+//         .show &:nth-child(1) {
+//             transform: translateY(5px);
+//         }
 
-        .show &:nth-child(1),
-        .btn-main-nav.show .line:nth-child(3) {
-            transition-delay: 0.3s;
-        }
+//         .show &:nth-child(3) {
+//             transform: translateY() rotate(90deg);
+//         }
 
-        .show &:nth-child(1) {
-            transform: translateY(5px);
-        }
+//     }
 
-        .show &:nth-child(3) {
-            transform: translateY() rotate(90deg);
-        }
+//     .line-2 {
+//         width: 20px;
+//         height: 3px;
+//         border-radius: 5px;
+//         background-color: rgb(233, 232, 232);
+//         display: block;
+//         margin: 5px auto;
+//         transition: all 0.8s ease-in-out;
 
-    }
+//         .show &:nth-child(2) {
+//             width: 0;
+//         }
 
-    .line-3 {
-        width: 30px;
-        height: 3px;
-        border-radius: 5px;
-        background-color: rgb(233, 232, 232);
-        display: block;
-        margin: 5px auto;
-        transition: all 0.8s ease-in-out;
+//         .show &:nth-child(1),
+//         .btn-main-nav.show .line:nth-child(3) {
+//             transition-delay: 0.3s;
+//         }
 
-        .show &:nth-child(2) {
-            width: 0;
-        }
+//         .show &:nth-child(1) {
+//             transform: translateY(5px);
+//         }
 
-        .show &:nth-child(1),
-        .btn-main-nav.show .line:nth-child(3) {
-            transition-delay: 1s;
-        }
+//         .show &:nth-child(3) {
+//             transform: translateY() rotate(90deg);
+//         }
 
-        .show &:nth-child(1) {
-            transform: translateY(5px);
-        }
+//     }
 
-        .show &:nth-child(3) {
-            transform: translateY() rotate(90deg);
-        }
+//     .line-3 {
+//         width: 30px;
+//         height: 3px;
+//         border-radius: 5px;
+//         background-color: rgb(233, 232, 232);
+//         display: block;
+//         margin: 5px auto;
+//         transition: all 0.8s ease-in-out;
 
-    }
+//         .show &:nth-child(2) {
+//             width: 0;
+//         }
 
-    .show & {
-        transition: all 2s ease-in-out;
-        transition-delay: 1s;
-        // transform: rotate(45deg);
-    }
-}
+//         .show &:nth-child(1),
+//         .btn-main-nav.show .line:nth-child(3) {
+//             transition-delay: 1s;
+//         }
+
+//         .show &:nth-child(1) {
+//             transform: translateY(5px);
+//         }
+
+//         .show &:nth-child(3) {
+//             transform: translateY() rotate(90deg);
+//         }
+
+//     }
+
+//     .show & {
+//         transition: all 2s ease-in-out;
+//         transition-delay: 1s;
+//         // transform: rotate(45deg);
+//     }
+// }

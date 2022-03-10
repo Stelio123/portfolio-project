@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom';
 import { ProjectData } from '../components/ProjectData';
 import {Fade} from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
+import backgroundVideo from '../assets/videos/work-video1.mp4';
+// import FaLongArrowAltLeft from 'react-icons/fa';
+// import FaLongArrowAltRight from 'react-icons/fa';
 
 
 const fadeImages = [
@@ -21,20 +24,34 @@ const fadeImages = [
   },
 ]
 
+// const prevArrow = () => {
+
+// }
+
+// const nextArrow = () => {
+
+// }
+
+
 const Slideshow = () => {
   return (
-    <main>
+    <main className='main-work'>
+      <video autoPlay loop muted paused id="myVideo">
+        <source src={backgroundVideo} type="video/mp4"/>
+      </video>      
     <div className="slide-container">
-      <h1>My Works</h1>
+      <h1 className='work-title'>My Works</h1>
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
             <div className="image-container">
-            <img src={fadeImage.image} alt='project'/>
+            <Link to={`/${fadeImage.id}`}><img className='fade-img' src={fadeImage.image} alt='project card'/></Link>
             </div>
-            <h2>{fadeImage.caption}</h2>
-            <p>{fadeImage.summary}</p>
-           <Link to={`/${fadeImage.id}`}><p>See More</p></Link>
+            {/* <FaLongArrowAltLeft className='left-arrow' onCLick={prevArrow}/>
+            <FaLongArrowAltRight className='Right-arrow' onCLick={nextArrow}/> */}
+            <h2 className='project-title'>{fadeImage.caption}</h2>
+            <p className='summary-caption'>{fadeImage.summary}</p>
+           <Link to={`/${fadeImage.id}`}><p className='see-more'>See More</p></Link>
           </div>
         ))}
       </Fade>
