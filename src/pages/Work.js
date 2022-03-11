@@ -22,6 +22,18 @@ const fadeImages = [
       summary: ProjectData[1].summary,
       id: ProjectData[1].slug
   },
+  {
+      image: ProjectData[2].image,
+      caption: ProjectData[2].title,
+      summary: ProjectData[2].summary,
+      id: ProjectData[2].slug
+  },
+  {
+      image: ProjectData[3].image,
+      caption: ProjectData[3].title,
+      summary: ProjectData[3].summary,
+      id: ProjectData[3].slug
+  },
 ]
 
 // const prevArrow = () => {
