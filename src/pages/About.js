@@ -10,9 +10,12 @@ function About() {
      <div className='about-container'>
         <h1>About Me</h1>
           <p>I'm a front end web developer and web designer based in Vancouver, BC.
-          I design simple but highly functional, interactive and responsive websites.</p>
+          I design simple but highly functional, interactive and responsive websites. 
+          With a background in sound design, music production and audio engineering I 
+          strive to my bring my natural creativity to the world of web development. </p>
           <div>
             {/* <h3>My toolkit</h3> */}
+
             <div className='tool-container'>
                 <ul className='dev-list'>
                   <h4>Dev tools</h4>
