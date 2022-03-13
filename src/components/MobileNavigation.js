@@ -1,5 +1,5 @@
 import NavLinks from './NavLinks';
-import {CgMenuGridR} from 'react-icons/cg';
+import {HiOutlineMenuAlt1} from 'react-icons/hi';
 import {MdCloseFullscreen} from 'react-icons/md';
 import {useState} from 'react';
 
@@ -8,9 +8,9 @@ const MobileNavigation = () => {
 
     const [open, setOpen] = useState(false);
 
-    const hamburgerIcon = <CgMenuGridR className='hamburger' onClick={()=>setOpen(!open)}/>
+    const hamburgerIcon = <HiOutlineMenuAlt1 className='hamburger' size='35px' onClick={()=>setOpen(!open)}/>
 
-    const hamburgerIconClose = <MdCloseFullscreen className='hamburger' fill='white' onClick ={() => setOpen(!open)} />
+    const hamburgerIconClose = <MdCloseFullscreen className='hamburger' size='35px'fill='white' onClick ={() => setOpen(!open)} />
 
     const closeMobileNav = () => setOpen(false); 
 

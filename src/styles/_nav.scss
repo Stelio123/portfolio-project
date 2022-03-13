@@ -8,20 +8,29 @@
 
     @media (min-width: 990px) {
         display: flex;
+        flex-wrap: nowrap;
 
-        .nav-items {}
+
 
         a.nav-link {
             color: white;
             text-decoration: none;
-            margin-bottom: 3rem;
-            line-height: 10px;
-            font-size: 1em;
+            font-size: 1.2rem;
             font-weight: bold;
-            padding: 5px;
+            padding: 0px 20px 0px 10px;
+
+            &:hover,
+            &:active,
+            &:focus {
+                text-decoration: underline;
+                color: white;
+            }
         }
 
         ul {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
             list-style: none;
         }
 
@@ -43,7 +52,7 @@
         top: 30px;
         padding: 10px;
         margin: 0 auto;
-        right: 5rem;
+        right: 0;
         list-style: none;
         text-decoration: none;
 

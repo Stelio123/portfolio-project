@@ -12,7 +12,7 @@ function Contact() {
         <h1>Lets Connect</h1>
           <p>Im always open to questions about my work and happy to discuss any opportunities or collaborations!</p>
           <div className='btn-container'>
-        <button ><a  className='cta-contact' href="slangaditis96@gmail.com">click me</a></button>
+        <button ><a  className='cta-contact' href="mailto:slangaditis96@gmail.com">email</a></button>
       </div>
     </div>      
     </main>

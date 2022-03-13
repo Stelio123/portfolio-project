@@ -22,7 +22,7 @@ function IndividualWorkPage() {
       <source src={backgroundVideo} type="video/mp4"/>
     </video>  
       {project !== null && (
-       <div>
+       <div className='indiv-container'>
          <h1>{project.title}</h1>
          <img src={project.image} alt='project'/>
          <p>{project.links}</p>
