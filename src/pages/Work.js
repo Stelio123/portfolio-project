@@ -4,6 +4,8 @@ import { ProjectData } from '../components/ProjectData';
 import {Fade} from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import backgroundVideo from '../assets/videos/work-video3.mp4';
+import {motion} from 'framer-motion'; 
+
 // import FaLongArrowAltLeft from 'react-icons/fa';
 // import FaLongArrowAltRight from 'react-icons/fa';
 
@@ -34,8 +36,19 @@ const fadeImages = [
       summary: ProjectData[3].summary,
       id: ProjectData[3].slug
   },
+  {
+    image: ProjectData[4].image,
+    caption: ProjectData[4].title,
+    summary: ProjectData[4].summary,
+    id: ProjectData[4].slug
+  },
+  {
+    image: ProjectData[5].image,
+      caption: ProjectData[5].title,
+      summary: ProjectData[5].summary,
+      id: ProjectData[5].slug
+  }
 ]
-
 // const prevArrow = () => {
 
 // }
@@ -48,10 +61,15 @@ const fadeImages = [
 const Slideshow = () => {
   return (
     <main className='main-work'>
-      <video autoPlay loop muted paused id="myVideo">
+      <video playsInline autoPlay loop muted paused id="myVideo">
         <source src={backgroundVideo} type="video/mp4"/>
       </video>      
-    <div className="slide-container">
+    <motion.div 
+    initial    ={{scaleY: 0}}
+    animate    ={{scaleY: 1}}
+    exit       ={{scaleY: 0}}
+    transition ={{duration: 0.5}}
+    className  ="slide-container">
       <h1 className='work-title'>My Works</h1>
       <Fade>
         {fadeImages.map((fadeImage, index) => (
@@ -67,7 +85,7 @@ const Slideshow = () => {
           </div>
         ))}
       </Fade>
-    </div>
+    </motion.div>
   </main>  
   )
 }

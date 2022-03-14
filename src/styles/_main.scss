@@ -157,7 +157,29 @@ img {
     padding: 20px;
     text-align: center;
     bottom: 2rem;
+
+    p,
+    h3,
+    h4 {
+        padding: 10px 0px 10px 0px;
+    }
+
+    h3,
+    h4 {
+        text-decoration: underline;
+        color: white;
+    }
+
 }
+
+.indiv-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
 
 
 

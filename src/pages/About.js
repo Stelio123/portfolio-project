@@ -1,14 +1,20 @@
 import React from 'react'
 import backgroundVideo from '../assets/videos/about-vid1.mp4';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
+import {motion} from 'framer-motion';
 
 function About() {
   return (
  <main className='main-about'>
-    <video autoPlay loop muted paused id="myVideo">
+    <video playsInline autoPlay loop muted paused id="myVideo">
       <source src={backgroundVideo} type="video/mp4"/>
     </video>   
-     <div className='about-container'>
+     <motion.div 
+     initial    ={{scaleY: 0}}
+     animate    ={{scaleY: 1}}
+     exit       ={{scaleY: 0}}
+     transition ={{duration:0.5}}
+     className  ='about-container'>
         <h1>About Me</h1>
           <p>I'm a front end web developer and web designer based in Vancouver, BC.
           I design simple but highly functional, interactive and responsive websites.</p>
@@ -39,7 +45,7 @@ function About() {
                   </ul>                    
             </div>           
           </div>
-      </div>
+      </motion.div>
  </main>
     
   )
