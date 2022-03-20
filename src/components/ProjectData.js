@@ -8,7 +8,7 @@ export const ProjectData = [
         links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href='https://steliocodes.com/snos-movies/' target='_blank' alt='movie databe wesite' >Live Site</a>],
         mockTitle: 'Mock Up',
         mockUpImage:  require('../assets/images/mdb.png'),
-        mockUpImage2:<img src= {require('../assets/images/single-mdb.png')} alt='second mock up'/>,
+        mockUpImage2: require('../assets/images/single-mdb.png'),
         mockUp: 'High fidelity mock-up created in Adobe XD to serve as a model for the user interface design.',
         designTitle: 'Design',
         design: 'The website design is simple and focused on the movies with clean and minimal rows.',
@@ -28,7 +28,7 @@ export const ProjectData = [
         tools: 'JavaScript, jQuery, HTML, CSS',
         links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href="https://steliocodes.com/minesweeper/" target='_blank' alt='github'>Live Site</a>],
         mockUpImage:require('../assets/images/minesweeper-home.png') ,
-        mockUpImage2:<img src= {require('../assets/images/main-screen.png')} alt='second mock up'/>,
+        mockUpImage2: require('../assets/images/main-screen.png'),
         functionTitle:'Functionality',
         funcSum: 'figure out what to say',
         slug: 'minesweeper'
@@ -39,14 +39,16 @@ export const ProjectData = [
         summary: 'Built a basic calculator for fun using React and CSS.',
         tools: 'React, CSS',
         links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href="https://steliocodes.com/minesweeper/" target='_blank' alt='github'>Live Site</a>],
+        slug: 'calculator'
 
     },
     {
         title: 'Food Explorer Replica',
         image: require('../assets/images/html.png'),
-        summary: 'Developed a fully responsive replica restaurant website in a team of two using HTML, SASS and GitHub.',
+        summary: 'Developed a fully responsive replica restaurant website in a team of two using HTML, SASS and GitHub.', 
         tools: 'HTML, SASS, GitHub',
         links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href="https://steliocodes.com/minesweeper/" target='_blank' alt='github'>Live Site</a>],
+        slug: 'foodexplorer'
 
     },
     {

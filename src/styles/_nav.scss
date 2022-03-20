@@ -6,7 +6,7 @@
 .desk-nav {
     display: none;
 
-    @media (min-width: 990px) {
+    @media (min-width: $desktop) {
         display: flex;
         flex-wrap: nowrap;
 
@@ -62,13 +62,12 @@
         position: absolute;
         right: 2rem;
         top: 2rem;
-        // padding: 0px 0px 30px 50px;
         color: white;
         cursor: pointer;
     }
 
 
-    @media (min-width: 990px) {
+    @media (min-width: $desktop) {
         display: none;
     }
 

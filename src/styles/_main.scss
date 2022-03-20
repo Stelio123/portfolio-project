@@ -18,6 +18,10 @@
     width: 100%;
     padding: 20px;
     text-align: center;
+
+    @media (min-width: $desktop) {
+        bottom: 25rem;
+    }
 }
 
 .name {
@@ -31,7 +35,6 @@
     font-family: 'Bosch', sans-serif;
     color: white;
     text-transform: uppercase;
-
 }
 
 #myVideo {
@@ -74,19 +77,28 @@
     p {
         margin: 10px;
     }
+
+    @media (min-width:$desktop) {
+        bottom: 15rem;
+
+        p {
+            margin: 10px auto;
+            max-width: 450px;
+        }
+    }
 }
 
 .tool-container {
 
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 5px;
     padding: 0px 30px 0px 5px;
     grid-auto-flow: row;
     row-gap: 10px;
     grid-template-areas:
-        ". ."
-        ". .";
+        ". . ."
+        ". . .";
     background-color: black;
     border: 1px solid white;
     margin: 10px;
@@ -96,6 +108,12 @@
         display: flex;
         flex-direction: column;
         align-content: center;
+    }
+
+    @media (min-width:$desktop) {
+        margin: 0 auto;
+        padding: 25px;
+        max-width: 600px;
     }
 }
 
@@ -121,12 +139,22 @@ img {
 
 .slide-container {
     bottom: 14rem;
+
+    @media (min-width: $desktop) {
+        margin: 10rem;
+    }
 }
+
+
 
 .image-container {
     display: block;
     margin: 0 auto;
     width: 80%;
+
+    @media (min-width:$desktop) {
+        max-width: 30%;
+    }
 }
 
 
@@ -136,6 +164,21 @@ img {
 .project-title,
 .summary-caption {
     text-align: center;
+}
+
+.see-more {
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+
+}
+
+.summary-caption {
+    @media (min-width: $desktop) {
+        display: block;
+        margin: 0 auto;
+        max-width: 50rem;
+    }
 }
 
 
@@ -170,16 +213,33 @@ img {
         color: white;
     }
 
+    @media (min-width:$desktop) {
+        p {
+            margin: 0 auto;
+            max-width: 50rem;
+        }
+    }
+
 }
 
 .indiv-links {
     display: flex;
     justify-content: space-around;
+
+    @media (min-width:$desktop) {
+        justify-content: space-evenly;
+    }
 }
 
+.indiv-img,
+.mock-img {
 
+    @media (min-width:$desktop) {
+        padding: 10px;
+        max-width: 30%;
+    }
 
-
+}
 
 
 
@@ -201,6 +261,13 @@ img {
     width: 100%;
     padding: 20px;
     text-align: center;
+
+    @media (min-width:$desktop) {
+        bottom: 25rem;
+        margin: 0 auto;
+        padding: 25px;
+        max-width: 600px;
+    }
 }
 
 
