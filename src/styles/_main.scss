@@ -73,6 +73,8 @@
     width: 100%;
     padding: 20px;
     text-align: center;
+    display: block;
+    margin: 0 auto;
 
     p {
         margin: 10px;
@@ -101,7 +103,7 @@
         ". . .";
     background-color: black;
     border: 1px solid white;
-    margin: 10px;
+    margin: 0 auto;
 
 
     ul {
@@ -125,6 +127,14 @@
 
 img {
     z-index: 10;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+
+
+    @media (min-width:$desktop) {
+        max-width: 500px;
+    }
 }
 
 
@@ -140,9 +150,15 @@ img {
 .slide-container {
     bottom: 14rem;
 
-    @media (min-width: $desktop) {
-        margin: 10rem;
-    }
+    // @media (min-width: $desktop) {
+    //     margin: 10rem;
+    // }
+}
+
+.react-slideshow-container .default-nav:last-of-type,
+.default-nav:first-of-type {
+    background-color: white;
+    display: none;
 }
 
 
@@ -262,11 +278,22 @@ img {
     padding: 20px;
     text-align: center;
 
+    p {
+        padding: 10px;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
     @media (min-width:$desktop) {
         bottom: 25rem;
         margin: 0 auto;
         padding: 25px;
         max-width: 600px;
+
+        p {
+            max-width: 600px;
+        }
     }
 }
 

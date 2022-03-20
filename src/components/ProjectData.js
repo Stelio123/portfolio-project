@@ -3,7 +3,7 @@ export const ProjectData = [
     {
         title: 'Movie Database',
         image: require('../assets/images/moviedb.png'),
-        summary: 'SNOS Movies is a single page web built in React. SNOS Movies utilizes REST API to allow users to find up-to-date information about popular, top rated, now playing, and upcoming movies. Users are also able to add movies to their favourites.',
+        summary: 'SNOS Movies is a single page web application built in React. SNOS Movies utilizes REST API to allow users to find up-to-date information about popular, top rated, now playing, and upcoming movies. Users are also able to add movies to their favourites.',
         tools: 'React, Sass, REST API, GitHub',
         links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href='https://steliocodes.com/snos-movies/' target='_blank' alt='movie databe wesite' >Live Site</a>],
         mockTitle: 'Mock Up',
@@ -38,7 +38,7 @@ export const ProjectData = [
         image: require('../assets/images/calculator.png'),
         summary: 'Built a basic calculator for fun using React and CSS.',
         tools: 'React, CSS',
-        links: [<a href="https://github.com/" target='_blank' alt='github'>GitHub</a>, <a href="https://steliocodes.com/minesweeper/" target='_blank' alt='github'>Live Site</a>],
+        links: <a href="https://steliocodes.com/minesweeper/" target='_blank' alt='github'>Live Site</a>,
         slug: 'calculator'
 
     },
