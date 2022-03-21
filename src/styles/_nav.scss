@@ -6,7 +6,7 @@
 .desk-nav {
     display: none;
 
-    @media (min-width: $desktop) {
+    @media (min-width: 990px) {
         display: flex;
         flex-wrap: nowrap;
 
@@ -67,7 +67,7 @@
     }
 
 
-    @media (min-width: $desktop) {
+    @media (min-width: 990px) {
         display: none;
     }
 
