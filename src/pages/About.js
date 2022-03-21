@@ -23,7 +23,7 @@ function About() {
           <div>
             {/* <h3>My toolkit</h3> */}
 
-            <div className='tool-container'>
+            {/* <div className='tool-container'>
                 <ul className='dev-list'>
                   <h4>Dev tools</h4>
                     <li>HTML</li>
@@ -43,7 +43,7 @@ function About() {
                       <li>Adobe Illustrator</li>
                       <li>Premiere Pro</li>
                   </ul>                    
-            </div>           
+            </div>            */}
           </div>
       </motion.div>
  </main>

@@ -70,7 +70,7 @@ const Slideshow = () => {
             <Link to={`/${fadeImage.id}`}><img className='fade-img' src={fadeImage.image} alt='project card'/></Link>
             </div>
             <h2 className='project-title'>{fadeImage.caption}</h2>
-            <p className='summary-caption'>{fadeImage.summary}</p>
+            {/* <p className='summary-caption'>{fadeImage.summary}</p> */}
            <Link to={`/${fadeImage.id}`}><p className='see-more'>See More</p></Link>
           </div>
         ))}
