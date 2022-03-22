@@ -4,6 +4,8 @@ import {useParams} from 'react-router-dom';
 import  {useEffect, useState} from 'react'; 
 import backgroundVideo from '../assets/videos/work-video3.mp4';
 import {motion} from 'framer-motion';
+import {Link} from 'react-router-dom';
+import {Slider} from '../components/Slider';
 
 
 
@@ -39,6 +41,34 @@ function IndividualWorkPage() {
                   <h3 className='indiv-mock-title'>{project.mockTitle}</h3>
                     <div className='mock-div'>{project.projectImage}</div>
                     <p className='indiv-sum'>{project.description}</p>
+                    {/* <Link
+        className="next-project"
+        to={`/${
+         ProjectData[
+          project.key === ProjectData.length ? 0 : project.key
+         ].id
+        }`}
+       >
+        {
+         ProjectData[
+          project.key === ProjectData.length ? 0 : project.key
+         ].id
+        }
+       </Link>
+       <Link
+        className="next-project"
+        to={`/${
+         ProjectData[
+          project.key === 1 ? ProjectData.length - 1 : project.key + 1
+         ].id
+        }`}
+       >
+        {
+         ProjectData[
+          project.key === 1 ? ProjectData.length - 1 : project.key + 1
+         ].id
+        }
+       </Link> */}
 
                       {/* <p className='indiv-mockup'>{project.mockUp}</p>
                         <h3 className='indiv-des-title'>{project.designTitle}</h3>

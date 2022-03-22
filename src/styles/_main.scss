@@ -146,12 +146,14 @@ img {
 
 
 //Work
-.work-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
+// .work-main {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     flex-grow: 1;
+// }
+
+.slider-container {}
 
 
 
@@ -164,6 +166,7 @@ img {
         max-width: 30%;
     }
 }
+
 
 
 
@@ -182,6 +185,51 @@ img {
     // position: relative;
 }
 
+// .slick-dots li.slick-active button:before {
+//     // background-color: blue;
+//     // color: white;
+// }
+.slick-dots li.slick-active button:before {
+    // opacity: 1;
+    // color: black;
+}
+
+.slick-dots li button:before {
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 1;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li button:after {
+    opacity: 1;
+    color: red;
+
+}
+
+.slick-dots button:before {
+    top: 1px;
+    transition: all 0.5s;
+    content: "";
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    opacity: 1;
+}
+
+.slick-active button {
+    // color: white;
+}
 
 .slick-dots {
     position: absolute;
@@ -193,7 +241,8 @@ img {
     text-align: center;
     color: white;
 
-    li {
+    li .slick-active button:before {
+
         position: relative;
         display: inline-block;
         width: 6px;
@@ -205,6 +254,8 @@ img {
 
     button {
         display: none;
+        // color: white;
+        // background-color: red;
 
         &:before {
             top: 1px;
@@ -212,8 +263,8 @@ img {
             content: '';
             width: 6px;
             height: 6px;
-            background-color: #ffffff;
             position: absolute;
+            opacity: 1;
         }
 
         &.slick-active:before {
@@ -221,7 +272,6 @@ img {
             width: 8px;
             height: 8px;
             margin-left: -2px;
-            background-color: #964848;
         }
 
     }

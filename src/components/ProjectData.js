@@ -51,7 +51,7 @@ export const ProjectData = [
 
     },
     {
-        title: 'Food Explorer Replica',
+        title: 'Food Explorer',
         image: require('../assets/images/html.png'),
         overview: 'Built a fully responsive restaurant replica webpage.',
         summary: 'Developed a fully responsive replica restaurant website in a team of two using HTML, SASS and GitHub.', 

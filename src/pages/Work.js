@@ -7,7 +7,7 @@ import Slider from '../components/Slider';
 
 const Slideshow = () => {
   return (
-    <main className='main-work'>
+    <main className='work-main'>
       <video playsInline autoPlay loop muted paused id="myVideo">
         <source src={backgroundVideo} type="video/mp4"/>
       </video>      
