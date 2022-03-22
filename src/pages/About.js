@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundVideo from '../assets/videos/about-vid1.mp4';
+import backgroundVideo from '../assets/videos/about.mp4';
 // import {Link} from 'react-router-dom';
 import {motion} from 'framer-motion';
 
@@ -18,12 +18,13 @@ function About() {
         <h1>About Me</h1>
           <p>I'm a front end web developer and web designer based in Vancouver, BC.
           I design simple but highly functional, interactive and responsive websites.</p>
-          <p>With a background in sound design, music production and audio engineering I 
-          strive to my bring my natural creativity to the world of web development. </p>
+          
           <div>
-            {/* <h3>My toolkit</h3> */}
+            <p>With a background in sound design, music production and audio engineering I 
+          strive to my bring my natural creativity to the world of web development. </p>
+            {/* <h3>My toolkit</h3>
 
-            {/* <div className='tool-container'>
+            <div className='tool-container'>
                 <ul className='dev-list'>
                   <h4>Dev tools</h4>
                     <li>HTML</li>
@@ -39,11 +40,11 @@ function About() {
                       <li>Adobe XD</li>
                       <li>Invision</li>
                       <li>Figma</li>
-                      <li>Adobe Photoshop</li>
-                      <li>Adobe Illustrator</li>
+                      <li>Photoshop</li>
+                      <li>Illustrator</li>
                       <li>Premiere Pro</li>
-                  </ul>                    
-            </div>            */}
+                  </ul>                     */}
+            {/* </div>            */}
           </div>
       </motion.div>
  </main>

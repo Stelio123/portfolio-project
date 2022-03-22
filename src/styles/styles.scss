@@ -18,7 +18,10 @@
 
 //Imports
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Spline+Sans&display=swap');
-@import "react-slideshow-image/dist/styles.css";
+// @import "react-slideshow-image/dist/styles.css";
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 
 @font-face {
     font-family: 'Bosch';
