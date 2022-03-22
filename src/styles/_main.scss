@@ -95,40 +95,40 @@
     }
 }
 
-.tool-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
-    padding: 10px 30px 0px 10px;
-    grid-auto-flow: row;
-    row-gap: 5px;
-    grid-template-areas:
-        ". ."
-        ". .";
-    margin: 0 auto;
+// .tool-container {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     gap: 5px;
+//     padding: 10px 30px 0px 10px;
+//     grid-auto-flow: row;
+//     row-gap: 5px;
+//     grid-template-areas:
+//         ". ."
+//         ". .";
+//     margin: 0 auto;
 
-    ul {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: space-evenly;
-    }
+//     ul {
+//         display: flex;
+//         flex-direction: column;
+//         align-content: center;
+//         justify-content: space-evenly;
+//     }
 
-    @media (min-width:990px) {
-        margin: 0 auto;
-        padding: 25px;
-        max-width: 600px;
+//     @media (min-width:990px) {
+//         margin: 0 auto;
+//         padding: 25px;
+//         max-width: 600px;
 
-    }
-}
+//     }
+// }
 
-.dev-list,
-.design-list {
-    display: block;
-    margin: 0 auto;
-    list-style: none;
-    color: white;
-}
+// .dev-list,
+// .design-list {
+//     display: block;
+//     margin: 0 auto;
+//     list-style: none;
+//     color: white;
+// }
 
 img {
     z-index: 10;
@@ -137,8 +137,16 @@ img {
     margin: 0 auto;
 
 
+
     @media (min-width:990px) {
         max-width: 500px;
+
+        // &:hover {
+        //     -webkit-filter: grayscale(100%);
+        //     /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        //     filter: grayscale(100%);
+        //     /* FF 35+ */
+        // }
     }
 }
 
@@ -146,6 +154,9 @@ img {
 
 
 //Work
+
+
+
 // .work-main {
 //     display: flex;
 //     justify-content: center;
@@ -155,17 +166,76 @@ img {
 
 .slider-container {}
 
+.project-title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
 
 
 .image-container {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: -1;
+        border: 2px solid white;
+        transition: all .25s ease-out;
+    }
+
+    &::before {
+        background-color: white;
+        top: -15px;
+        left: -15px;
+    }
+
+    &::after {
+        bottom: -15px;
+        right: -15px;
+    }
+
+    &:hover {
+        &::before {
+            top: 15px;
+            left: 15px;
+        }
+
+        &::after {
+            bottom: 15px;
+            right: 15px;
+        }
+    }
 
     @media (min-width:990px) {
         max-width: 30%;
+        display: block;
+        margin: 0 auto;
+
     }
 }
+
+// display: block;
+// margin: 0 auto;
+// width: 80%;
+// -webkit-filter: grayscale(100%);
+// /* Ch 23+, Saf 6.0+, BB 10.0+ */
+// filter: grayscale(100%);
+
+// &:hover {
+//     filter: none;
+// }
+
+
+// @media (min-width:990px) {
+//     max-width: 30%;
+
+// }
+
 
 
 
@@ -195,10 +265,13 @@ img {
 }
 
 .slick-dots li button:before {
+    display: flex;
+    justify-content: space-around;
     font-family: "slick";
-    font-size: 6px;
+    font-size: 20px;
     line-height: 20px;
     position: absolute;
+    margin: 0 auto;
     top: 0;
     left: 0;
     width: 20px;
@@ -242,7 +315,6 @@ img {
     color: white;
 
     li .slick-active button:before {
-
         position: relative;
         display: inline-block;
         width: 6px;
@@ -279,19 +351,29 @@ img {
 
 }
 
+.slick-next:before {
+    display: none;
+}
 
-
-
-
-.slick-prev {
-    left: 25px;
+.slick-prev:before {
+    display: none;
 }
 
 
-.slick-next {
-    right: 25px;
 
-}
+
+
+
+// .slick-prev {
+//     left: 25px;
+// }
+
+
+// .slick-next {
+//     right: 25px;
+
+
+// }
 
 .slick-arrow {
     top: 50%;
@@ -304,15 +386,17 @@ img {
     background-color: transparent;
     border: none;
     background-repeat: no-repeat;
+    display: none;
 }
 
 
 .commandSlider__item {
+    display: block;
     text-align: center;
     transition: box-shadow 2s;
     cursor: pointer;
-    position: relative;
-    margin: 0 10px;
+    // position: relative;
+    margin: 0 auto;
     padding: 30px;
     box-shadow: inset -141px -129px 200px rgba(0, 0, 0, 0.25);
 
@@ -323,7 +407,7 @@ img {
 
     &_status {
         text-align: center;
-        margin: 3rem auto;
+        margin: 20px auto;
         color: #fff;
         font-size: 1.5rem;
         margin-bottom: 80px;
@@ -336,14 +420,13 @@ img {
 
 
 
-.project-title {
-    text-align: center;
-}
+
 
 .see-more {
     text-align: center;
     display: block;
     margin: 0 auto;
+    padding: 0px 30px 88px 20px;
     // background-color: white;
     // color: black;
     // width: 30%;

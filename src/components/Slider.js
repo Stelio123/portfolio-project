@@ -47,10 +47,10 @@ export default function SimpleSlider() {
         },
         {
           image: ProjectData[5].image,
-            caption: ProjectData[5].title,
-            overview: ProjectData[5].overview,
-            id: ProjectData[5].slug,
-            key: 6
+          caption: ProjectData[5].title,
+          overview: ProjectData[5].overview,
+          id: ProjectData[5].slug,
+          key: 6
         }
       ]
 
@@ -58,7 +58,7 @@ export default function SimpleSlider() {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 1000,
         slidesToShow: 1,
         slidesToScroll: 1
   };
@@ -71,11 +71,11 @@ export default function SimpleSlider() {
           <div className="tarikComandSlider" key={index}>
                 <article className='commandSlider__item'>
              
-                {/* <div className="image-container"> */}
+                <div className="image-container">
                 <Link to={`/${project.id}`}><img className='commandSlider__item_photo' src={project.image} alt='project card'/></Link>
-            {/* </div> */}
+            </div>
                 <h2 className='commandSlider__item_status'>{project.caption}</h2>
-                <Link to={`/${project.id}`}><p className='see-more'>See More</p></Link>
+                {/* <Link to={`/${project.id}`}><p className='see-more'>See More</p></Link> */}
             {/* <p className='commandSlider__item_overview'>{project.overview}</p> */} 
                 </article>
           </div>
