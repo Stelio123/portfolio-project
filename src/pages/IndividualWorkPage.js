@@ -41,6 +41,7 @@ function IndividualWorkPage() {
                   <h3 className='indiv-mock-title'>{project.mockTitle}</h3>
                     <div className='mock-div'>{project.projectImage}</div>
                     <p className='indiv-sum'>{project.description}</p>
+                    <Link to='/work'><a href='Work.js'>Back to Selected Works</a></Link>
                     {/* <Link
         className="next-project"
         to={`/${
@@ -70,16 +71,6 @@ function IndividualWorkPage() {
         }
        </Link> */}
 
-                      {/* <p className='indiv-mockup'>{project.mockUp}</p>
-                        <h3 className='indiv-des-title'>{project.designTitle}</h3>
-                          <p className='indiv-des-sum'>{project.design}</p>
-                            <h3 className='indiv-func-title'>{project.functionTitle}</h3>
-                              <h4 className='indiv-spef-title'>{project.spefFunTitle}</h4>
-                                <p className='indiv-funcSum'>{project.funcSum}</p>
-                                  <h4>{project.rest}</h4>
-                                  <p>{project.restSum}</p>
-                                  <h4>{project.responsive}</h4>
-                                  <p>{project.respSum}</p> */}
       </motion.div>         
       )}
     </main>
