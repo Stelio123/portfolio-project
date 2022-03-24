@@ -295,19 +295,29 @@ img {
 }
 
 .slick-next:before {
-    display: none;
+    // display: none;
+
+    @media (min-width: 990px) {
+
+    }
 }
 
 .slick-prev:before {
-    display: none;
+    // display: none;
+    @media (min-width: 990px) {
+    }
+
 }
+
+
 
 
 
 
 .slick-prev,
 .slick-next {
-    padding: 38.75px
+    padding: 25rem 60px 0px 40px;
+
 }
 
 
