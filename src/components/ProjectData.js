@@ -6,7 +6,7 @@ export const ProjectData = [
         summary: 'SNOS Movies is a single page web application built in React. SNOS Movies utilizes REST API to allow users to find up-to-date information about popular, top rated, now playing, and upcoming movies. Users are also able to add movies to their favourites.',
         tools: 'React, SCSS, REST API, GitHub',
         links:[
-        <a href="https://github.com/Stelio123" rel='noreffer noopener'  target='_blank' alt='github'>GitHub</a>, 
+        <a href="https://github.com/Stelio123/movie-database" rel='noreffer noopener'  target='_blank' alt='github'>GitHub</a>, 
         <a href='https://steliocodes.com/snos-movies/' rel='noreffer noopener'target='_blank' alt='movie databe wesite' >Live Site</a>],
         mockTitle: 'Mock Up',
         projectImage:[
@@ -63,7 +63,7 @@ export const ProjectData = [
         image: require('../assets/images/port1.png'),
         summary: 'Built a portfolio website to showcase my most recent works. I developed this website using React, SCSS, HTML, Adobe XD, illustrator and Photoshop. Created all animations using Fader-Motion',
         tools: 'React, HMTL, SCSS, GitHub',
-        links: <a href="https://github.com/Stelio123" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>,
+        links: <a href="https://github.com/Stelio123/portfolio-project" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>,
         description: 'A simple portfolio site to showcase my personality and work.',
         slug: 'portfolio'
     }
