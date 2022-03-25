@@ -43,8 +43,8 @@ export const ProjectData = [
         tools: 'HTML, SCSS, GitHub',
         links: [<a href="https://github.com/Stelio123"  rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
                 <a href="https://steliocodes.com/food-explorer/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>],
-        projectImage:[<img src={require('../assets/images/food-full-shot.png')} alt= 'food explorer full screen'></img>,
-        <img src={require('../assets/images/food-mobile-shot.png')} alt='food explorer mobile screen'></img>],
+        projectImage:<img src={require('../assets/images/food-full-shot.png')} alt= 'food explorer full screen'></img>,
+        // <img src={require('../assets/images/food-mobile-shot.png')} alt='food explorer mobile screen'></img>],
         description:'Developed a fully responsive replica of a restaurant home webpage. This project was built by me and classmate. We built this webpage mobile first using HTML, SCSS while working cooperatively through GitHub.',
         slug: 'foodexplorer'
 

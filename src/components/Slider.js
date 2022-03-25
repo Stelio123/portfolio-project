@@ -75,6 +75,7 @@ export default function SimpleSlider() {
                 <Link to={`/${project.id}`}><img className='commandSlider__item_photo' src={project.image} alt='project card'/></Link>
             </div>
                 <h2 className='commandSlider__item_status'>{project.caption}</h2>
+                <Link className="see-more" to={`/${project.id}`}><a href="/work">See More</a></Link>
                 </article>
           </div>
         ))}

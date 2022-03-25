@@ -1,12 +1,23 @@
 // Footer 
 import React from "react";
+// import {ProjectData} from '../components/ProjectData';
+// import {useParams} from 'react-router-dom';
+// import  {useEffect, useState} from 'react'; 
 
 function Footer () {
+    // const { slug } =  useParams();
+    // const [project, setProject] = useState(null);
+    // useEffect(() => {
+    //   const data =ProjectData.filter((item) => item.slug === slug);
+    //   if (data !== null) {
+    //       setProject(data[0]);
+    //   }
+    // },[slug]);
 
-
+// className={`${slug} padding`}
 
     return(
-        <footer>
+        <footer  >
             <div className='social-icons'>
                 <div className='linkedin'>
                 <a href="https://wwww.linkedin.com/in/stelio-langaditis-768153203"  rel='noreffer noopener' target='_blank' alt='linkedin'><svg xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.499" viewBox="0 0 31.5 31.499">

@@ -103,7 +103,7 @@
     }
 
     @media (min-width: 1080px) {
-        bottom: 17rem;
+        bottom: 13rem;
     }
 }
 
@@ -263,7 +263,7 @@ img {
 
 .slick-dots {
     position: absolute;
-    bottom: 4rem;
+    bottom: 5rem;
     display: block;
     width: 100%;
     padding: 0;
@@ -374,7 +374,6 @@ img {
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding: 0px 30px 88px 20px;
 }
 
 
@@ -434,7 +433,12 @@ img {
     @media (min-width:990px) {
         padding: 10px;
         max-width: 30%;
+        max-height: 30%;
     }
+
+}
+
+.indiv-sum {
 
 }
 

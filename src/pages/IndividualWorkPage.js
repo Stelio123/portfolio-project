@@ -41,7 +41,7 @@ function IndividualWorkPage() {
                   <h3 className='indiv-mock-title'>{project.mockTitle}</h3>
                     <div className='mock-div'>{project.projectImage}</div>
                     <p className='indiv-sum'>{project.description}</p>
-                    <Link to='/work'><a href='Work.js'>Back to Selected Works</a></Link>
+                    {/* <Link to='/work'><a href='Work.js'>Back to Selected Works</a></Link> */}
                     {/* <Link
         className="next-project"
         to={`/${
