@@ -181,6 +181,7 @@ img {
         z-index: -1;
         border: 2px solid white;
         transition: all .25s ease-out;
+     
     }
 
     &::before {
@@ -206,12 +207,28 @@ img {
         }
     }
 
+    @media (min-width: 400px) {
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    @media (min-width: 500px) {
+        max-width: 70%;
+    }
+
+    @media (min-width: 800px) {
+        max-width: 40%;
+    }
+
     @media (min-width:990px) {
         max-width: 30%;
         display: block;
         margin: 0 auto;
 
     }
+
+  
 }
 
 
@@ -374,6 +391,10 @@ img {
     text-align: center;
     display: block;
     margin: 0 auto;
+
+    @media (min-width: 990px){
+        display: none;
+    }
 }
 
 

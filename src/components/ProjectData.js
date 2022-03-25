@@ -38,7 +38,7 @@ export const ProjectData = [
     },
     {
         title: 'Food Explorer',
-        image: require('../assets/images/html.png'),
+        image: require('../assets/images/food-ex.png'),
         summary: 'Developed a fully responsive webpage in a team of two.', 
         tools: 'HTML, SCSS, GitHub',
         links: [<a href="https://github.com/Stelio123"  rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
@@ -52,7 +52,7 @@ export const ProjectData = [
     {
         title: 'Capstone Project',
         image: require('../assets/images/woo.png'),
-        summary: 'Developed an E-commerce website for a non-existing company called "Sacred Tree Massage Therapy". Working in a team of four, we developed this site using WordPress and WooCommerce. All backend work was done in PHP and all styling was done using SASS. We used Asana to help manage our work load and keep us on pace to finish this project on time. More content and info Coming Soon!',
+        summary: 'Developed an E-commerce website for a non-existing company called "Sacred Tree Massage Therapy". Working in a team of four, we developed this site using WordPress and WooCommerce. All backend work was done in PHP and all styling was done using SCSS. We used Asana to help manage our work load and keep us on pace to finish this project on time. More content and info Coming Soon!',
         tools: 'WordPress, WooCommerce, PHP, SCSS, GitHub',
         links: [<a href="https://github.com/Stelio123" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
                 <a href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>],
