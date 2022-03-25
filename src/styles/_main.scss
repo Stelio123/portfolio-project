@@ -21,6 +21,10 @@
     @media (min-width: 990px) {
         bottom: 20rem;
     }
+
+    @media (min-width: 1080px) {
+        bottom: 18rem;
+    }
 }
 
 .name {
@@ -76,7 +80,6 @@
     margin: 0 auto;
 
     p {
-
         padding: 10px;
         max-width: 300px;
         display: block;
@@ -91,7 +94,16 @@
             margin: 10px auto;
             max-width: 450px;
             font-size: 1rem;
+            max-width: 400px;
         }
+
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    @media (min-width: 1080px) {
+        bottom: 17rem;
     }
 }
 
@@ -295,17 +307,16 @@ img {
 }
 
 .slick-next:before {
-    // display: none;
+    display: none;
 
-    @media (min-width: 990px) {
 
-    }
+
+    
 }
 
 .slick-prev:before {
-    // display: none;
-    @media (min-width: 990px) {
-    }
+    display: none;
+  
 
 }
 

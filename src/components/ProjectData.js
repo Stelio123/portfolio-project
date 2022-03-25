@@ -3,7 +3,6 @@ export const ProjectData = [
     {
         title: 'Movie Database',
         image: require('../assets/images/moviedb.png'),
-        overview: 'Movie Database built using React.',
         summary: 'SNOS Movies is a single page web application built in React. SNOS Movies utilizes REST API to allow users to find up-to-date information about popular, top rated, now playing, and upcoming movies. Users are also able to add movies to their favourites.',
         tools: 'React, SCSS, REST API, GitHub',
         links:[
@@ -19,42 +18,41 @@ export const ProjectData = [
     {
         title: 'JavaScript Game',
         image:require('../assets/images/minesweeper.png'),
-        overview: 'Minesweeper clone built using vanilla JavaScript.',
         summary: 'Developed and designed a mine sweeper clone using vanilla JavaScript and jQuery. All styling was done using CSS. With this project being my first time implementing my skills in JavaScript to create a web application, I am very proud of the outcome. ',
         tools: 'JavaScript, jQuery, HTML, CSS',
         links: <a href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>,
         projectImage: [<img src={require('../assets/images/minesweeper-home.png')} alt= 'minesweeper home'></img>, 
                        <img src={require('../assets/images/main-screen.png')} alt='main screen'></img>],
-        functionTitle:'Functionality',
-        funcSum: 'figure out what to say',
+        description: 'The game has four difficulty levels; easy, medium, hard and “Is This is a Joke”. The harder the difficulty the more mines are placed on the board and the player is given less flags to drop. The game also has a set timer, a quit button, a restart, and a help button. To play the game their player must enter their name and choose their difficulty.',
         slug: 'minesweeper'
     },
     {
         title: 'Calculator',
         image: require('../assets/images/calculator.png'),
-        overview: 'Built a basic calculator for fun using React and CSS.',
-        summary:'',
+        summary:'Built a basic calculator using React and CSS. I consider this a passion project because I wanted to practice my newly learned React/ JavaScript skills. ',
         tools: 'React, CSS',
         links: <a href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='live site'>Live Site</a>,
+        projectImage: <img src={require('../assets/images/calc-screen-shot.png')} alt= 'calculator'></img>,
         slug: 'calculator'
 
     },
     {
         title: 'Food Explorer',
         image: require('../assets/images/html.png'),
-        overview: 'Built a fully responsive restaurant replica webpage.',
-        summary: 'Developed a fully responsive replica restaurant website in a team of two using HTML, SCSS and GitHub.', 
+        summary: 'Developed a fully responsive webpage in a team of two.', 
         tools: 'HTML, SCSS, GitHub',
         links: [<a href="https://github.com/Stelio123"  rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
-                <a href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>],
+                <a href="https://steliocodes.com/food-explorer/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>],
+        projectImage:[<img src={require('../assets/images/food-full-shot.png')} alt= 'food explorer full screen'></img>,
+        <img src={require('../assets/images/food-mobile-shot.png')} alt='food explorer mobile screen'></img>],
+        description:'Developed a fully responsive replica of a restaurant home webpage. This project was built by me and classmate. We built this webpage mobile first using HTML, SCSS while working cooperatively through GitHub.',
         slug: 'foodexplorer'
 
     },
     {
         title: 'Capstone Project',
         image: require('../assets/images/woo.png'),
-        overview: 'Built a fully responsive Woocommerce website in WordPress.',
-        summary: 'Developed an E-commerce website for a non-existing company called "Sacred Tree Massage Therapy". Working in a team of four, we developed this site using WordPress and WooCommerce. All backend work was done in PHP and all styling was done using SASS. We used Asana to help manage our work load and keep us on pace to finish this project on time. This project displays my ability to work in a team environment.',
+        summary: 'Developed an E-commerce website for a non-existing company called "Sacred Tree Massage Therapy". Working in a team of four, we developed this site using WordPress and WooCommerce. All backend work was done in PHP and all styling was done using SASS. We used Asana to help manage our work load and keep us on pace to finish this project on time. More content and info Coming Soon!',
         tools: 'WordPress, WooCommerce, PHP, SCSS, GitHub',
         links: [<a href="https://github.com/Stelio123" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
                 <a href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>],
@@ -63,10 +61,10 @@ export const ProjectData = [
     {
         title: 'Portfolio',
         image: require('../assets/images/port1.png'),
-        overview: 'Built a fully responsive portoflio to showcase selected works using React.',
-        summary: 'Built a portfolio website to showcase my work through out the last 6 months. I developed this website using react, sass, html, adobe XD, illustrator a photoshop. Created animation using Fader-Motion',
+        summary: 'Built a portfolio website to showcase my most recent works. I developed this website using React, SCSS, HTML, Adobe XD, illustrator and Photoshop. Created all animations using Fader-Motion',
         tools: 'React, HMTL, SCSS, GitHub',
         links: <a href="https://github.com/Stelio123" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>,
+        description: 'A simple portfolio site to showcase my personality and work.',
         slug: 'portfolio'
     }
 ]
