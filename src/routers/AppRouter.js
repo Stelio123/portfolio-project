@@ -16,12 +16,17 @@ import {useLocation} from 'react-router-dom';
 
 
 
+
+
+
 function AppRouter() {
+
   const location = useLocation();
+
   return (
     <div className="wrapper">
-      <Header/>
-      <AnimatePresence exitBeforeEnter initial={false} >
+        <Header/>
+        <AnimatePresence exitBeforeEnter initial={false} >
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home/>}/>
           <Route path="about" element={<About/>}/>
@@ -30,9 +35,8 @@ function AppRouter() {
           <Route path ="contact" element={<Contact/>}/>
         </Routes>
         </AnimatePresence>
-      <Footer/>
+      <Footer/>            
     </div>
- 
   );
 }
 

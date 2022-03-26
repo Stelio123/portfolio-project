@@ -1,10 +1,7 @@
-//Type 
-
-@use "./variables"as *;
+//Typography
 
 
 body {
-    // font-family: 'PT Serif', serif;
     font-family: 'Bosch', serif;
 }
 
@@ -13,7 +10,6 @@ h2,
 h3,
 h4,
 nav a {
-    // font-family: 'Spline Sans', sans-serif;
     font-family: 'Pulchella', sans-serif;
     color: white;
 }

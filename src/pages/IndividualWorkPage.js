@@ -5,7 +5,6 @@ import  {useEffect, useState} from 'react';
 import backgroundVideo from '../assets/videos/work-video3.mp4';
 import {motion} from 'framer-motion';
 import {Link} from 'react-router-dom';
-import {Slider} from '../components/Slider';
 
 
 
@@ -41,35 +40,7 @@ function IndividualWorkPage() {
                   <h3 className='indiv-mock-title'>{project.mockTitle}</h3>
                     <div className='mock-div'>{project.projectImage}</div>
                     <p className='indiv-sum'>{project.description}</p>
-                    {/* <Link to='/work'><a href='Work.js'>Back to Selected Works</a></Link> */}
-                    {/* <Link
-        className="next-project"
-        to={`/${
-         ProjectData[
-          project.key === ProjectData.length ? 0 : project.key
-         ].id
-        }`}
-       >
-        {
-         ProjectData[
-          project.key === ProjectData.length ? 0 : project.key
-         ].id
-        }
-       </Link>
-       <Link
-        className="next-project"
-        to={`/${
-         ProjectData[
-          project.key === 1 ? ProjectData.length - 1 : project.key + 1
-         ].id
-        }`}
-       >
-        {
-         ProjectData[
-          project.key === 1 ? ProjectData.length - 1 : project.key + 1
-         ].id
-        }
-       </Link> */}
+                    <Link to='/work'><a href='Work.js'>Back to Selected Works</a></Link>
 
       </motion.div>         
       )}

@@ -12,7 +12,7 @@ export const ProjectData = [
         projectImage:[
         <img src={require('../assets/images/mdb.png')} alt='movie database homepage.'></img>, 
         <img src={require('../assets/images/single-mdb.png')} alt='single movies page.'></img> ],
-        description: 'High fidelity mock-up created in Adobe XD to serve as a model for the user interface design. The website design is simple and focused on the movies with clean and minimal rows. Dynamic button/svg for adding movies to favourites through local storage. Favourited movies are displayed on a dedicated page.Fetching movie data with an API key and useEffect. Movies are sorted by popular, top-rated, now playing, and upcoming.Through media queries and a mobile-first approach, the website is responsive for desktop, tablet, and mobile devices.',
+        description: ' I created a high fidelity mock-up using Adobe XD to serve as a model for the user interface design. The website design is simple and focused on the movies with clean and minimal rows. Dynamic button/svg for adding movies to favourites through local storage. Favourited movies are displayed on a dedicated page. Fetching movie data with an API key and useEffect. Movies are sorted by popular, top-rated, now playing, and upcoming. Through media queries and a mobile-first approach, the website is responsive for desktop, tablet, and mobile devices.',
         slug: 'moviedatabase'
     },
     {
@@ -41,10 +41,9 @@ export const ProjectData = [
         image: require('../assets/images/food-ex.png'),
         summary: 'Developed a fully responsive webpage in a team of two.', 
         tools: 'HTML, SCSS, GitHub',
-        links: [<a href="https://github.com/Stelio123"  rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
+        links: [<a href="https://github.com/amyxueqi/food-explorer"  rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
                 <a href="https://steliocodes.com/food-explorer/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>],
         projectImage:<img src={require('../assets/images/food-full-shot.png')} alt= 'food explorer full screen'></img>,
-        // <img src={require('../assets/images/food-mobile-shot.png')} alt='food explorer mobile screen'></img>],
         description:'Developed a fully responsive replica of a restaurant home webpage. This project was built by me and classmate. We built this webpage mobile first using HTML, SCSS while working cooperatively through GitHub.',
         slug: 'foodexplorer'
 
@@ -64,7 +63,8 @@ export const ProjectData = [
         summary: 'Built a portfolio website to showcase my most recent works. I developed this website using React, SCSS, HTML, Adobe XD, illustrator and Photoshop. Created all animations using Fader-Motion',
         tools: 'React, HMTL, SCSS, GitHub',
         links: <a href="https://github.com/Stelio123/portfolio-project" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>,
-        description: 'A simple portfolio site to showcase my personality and work.',
+        projectImage:<img src={require('../assets/images/port-wireframes.png')} alt= 'food explorer full screen'></img>,
+        description: 'A simple portfolio site to showcase my personality and work. A screen shot of my wireframes shown above, I took a mobile first approach when creating/designing this website. I made some changes as i started coding my portfolio, but I was still able to stick with continues brand.',
         slug: 'portfolio'
     }
 ]

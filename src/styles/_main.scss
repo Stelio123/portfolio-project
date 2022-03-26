@@ -1,5 +1,4 @@
-@use "./variables"as *;
-@use "./mixins"as *;
+//Main Pages
 
 //HOME PAGE // ------------//
 
@@ -23,7 +22,7 @@
     }
 
     @media (min-width: 1080px) {
-        bottom: 18rem;
+        bottom: 23rem;
     }
 }
 
@@ -97,50 +96,19 @@
             max-width: 400px;
         }
 
-        h1{
-            font-size: 3rem;
-        }
     }
 
     @media (min-width: 1080px) {
-        bottom: 13rem;
+        bottom: 20rem;
+        p {
+            margin: 10px auto;
+            max-width: 450px;
+            font-size: 1.2rem;
+            max-width: 400px;
+        }
     }
 }
 
-// .tool-container {
-//     display: grid;
-//     grid-template-columns: 1fr 1fr;
-//     gap: 5px;
-//     padding: 10px 30px 0px 10px;
-//     grid-auto-flow: row;
-//     row-gap: 5px;
-//     grid-template-areas:
-//         ". ."
-//         ". .";
-//     margin: 0 auto;
-
-//     ul {
-//         display: flex;
-//         flex-direction: column;
-//         align-content: center;
-//         justify-content: space-evenly;
-//     }
-
-//     @media (min-width:990px) {
-//         margin: 0 auto;
-//         padding: 25px;
-//         max-width: 600px;
-
-//     }
-// }
-
-// .dev-list,
-// .design-list {
-//     display: block;
-//     margin: 0 auto;
-//     list-style: none;
-//     color: white;
-// }
 
 img {
     z-index: 10;
@@ -214,11 +182,11 @@ img {
     }
 
     @media (min-width: 500px) {
-        max-width: 70%;
+        max-width: 80%;
     }
 
     @media (min-width: 800px) {
-        max-width: 40%;
+        max-width: 50%;
     }
 
     @media (min-width:990px) {
@@ -226,6 +194,14 @@ img {
         display: block;
         margin: 0 auto;
 
+    }
+
+    @media (min-width:1080px) {
+        max-width: 50%;
+    }
+
+    @media (min-width:1400px){
+        max-width: 30%;
     }
 
   
@@ -336,10 +312,6 @@ img {
   
 
 }
-
-
-
-
 
 
 .slick-prev,
@@ -500,6 +472,16 @@ img {
         p {
             max-width: 600px;
         }
+    }
+
+    @media (min-width:1080px){
+        bottom: 23rem;
+
+        p {
+            font-size: 1.2rem;
+
+        }
+
     }
 }
 
