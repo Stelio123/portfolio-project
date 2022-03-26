@@ -7,7 +7,7 @@ export const ProjectData = [
         tools: 'React, SCSS, REST API, GitHub',
         links:[
         <a href="https://github.com/Stelio123/movie-database" rel='noreffer noopener'  target='_blank' alt='github'>GitHub</a>, 
-        <a href='https://steliocodes.com/snos-movies/' rel='noreffer noopener'target='_blank' alt='movie databe wesite' >Live Site</a>],
+        <a href='https://steliocodes.com/snos-movies/' rel='noreffer noopener'target='_blank' alt='movie databe website' >Live Site</a>],
         mockTitle: 'Mock Up',
         projectImage:[
         <img src={require('../assets/images/mdb.png')} alt='movie database homepage.'></img>, 
@@ -18,12 +18,12 @@ export const ProjectData = [
     {
         title: 'JavaScript Game',
         image:require('../assets/images/minesweeper.png'),
-        summary: 'Developed and designed a mine sweeper clone using vanilla JavaScript and jQuery. All styling was done using CSS. With this project being my first time implementing my skills in JavaScript to create a web application, I am very proud of the outcome. ',
+        summary: 'Developed and designed a minesweeper clone using vanilla JavaScript and jQuery. All styling was done using CSS. With this project being my first time implementing JavaScript to create a web application, I am very proud of the outcome. ',
         tools: 'JavaScript, jQuery, HTML, CSS',
-        links: <a href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>,
+        links: <a  href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='minesweeper clone live site'>Live Site</a>,
         projectImage: [<img src={require('../assets/images/minesweeper-home.png')} alt= 'minesweeper home'></img>, 
                        <img src={require('../assets/images/main-screen.png')} alt='main screen'></img>],
-        description: 'The game has four difficulty levels; easy, medium, hard and “Is This is a Joke”. The harder the difficulty the more mines are placed on the board and the player is given less flags to drop. The game also has a set timer, a quit button, a restart, and a help button. To play the game their player must enter their name and choose their difficulty.',
+        description: 'The game has four difficulty levels; easy, medium, hard and “Is This a Joke”. The harder the difficulty the more mines are placed on the board and the player is given less flags to drop. The game also has a set timer, a quit button, a restart, and a help button. To play, the player must enter their name and choose their difficulty.',
         slug: 'minesweeper'
     },
     {
@@ -31,7 +31,7 @@ export const ProjectData = [
         image: require('../assets/images/calculator.png'),
         summary:'Built a basic calculator using React and CSS. I consider this a passion project because I wanted to practice my newly learned React/ JavaScript skills. ',
         tools: 'React, CSS',
-        links: <a href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='live site'>Live Site</a>,
+        links: <a href="https://steliocodes.com/calculator/" rel='noreffer noopener' target='_blank' alt='live site'>Live Site</a>,
         projectImage: <img src={require('../assets/images/calc-screen-shot.png')} alt= 'calculator'></img>,
         slug: 'calculator'
 
@@ -41,20 +41,20 @@ export const ProjectData = [
         image: require('../assets/images/food-ex.png'),
         summary: 'Developed a fully responsive webpage in a team of two.', 
         tools: 'HTML, SCSS, GitHub',
-        links: [<a href="https://github.com/amyxueqi/food-explorer"  rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
-                <a href="https://steliocodes.com/food-explorer/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>],
+        links: [<a  href="https://github.com/amyxueqi/food-explorer"  rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
+                <a  href="https://steliocodes.com/food-explorer/" rel='noreffer noopener' target='_blank' alt='live site'>Live Site</a>],
         projectImage:<img src={require('../assets/images/food-full-shot.png')} alt= 'food explorer full screen'></img>,
-        description:'Developed a fully responsive replica of a restaurant home webpage. This project was built by me and classmate. We built this webpage mobile first using HTML, SCSS while working cooperatively through GitHub.',
+        description:'Developed a fully responsive replica of a restaurant home webpage. This project was built by me and a classmate. We built this webpage mobile first using HTML and SCSS all while working cooperatively through GitHub.',
         slug: 'foodexplorer'
 
     },
     {
         title: 'Capstone Project',
         image: require('../assets/images/woo.png'),
-        summary: 'Developed an E-commerce website for a non-existing company called "Sacred Tree Massage Therapy". Working in a team of four, we developed this site using WordPress and WooCommerce. All backend work was done in PHP and all styling was done using SCSS. We used Asana to help manage our work load and keep us on pace to finish this project on time. More content and info Coming Soon!',
+        summary: 'Developed an E-commerce website for a non-existing company called "Sacred Tree Massage". Working in a team of four, we developed this site using WordPress and WooCommerce. All backend work was done in PHP and all styling was done using SCSS. We used Asana to help manage our work load and keep us on pace to finish this project on time. More content and info Coming Soon!',
         tools: 'WordPress, WooCommerce, PHP, SCSS, GitHub',
-        links: [<a href="https://github.com/Stelio123" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
-                <a href="https://steliocodes.com/minesweeper/" rel='noreffer noopener' target='_blank' alt='github'>Live Site</a>],
+        links: [<a href="https://github.com/htpwebdesign/sacred-tree" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
+                <a href="https://sacredtree.bcitwebdeveloper.ca/" rel='noreffer noopener' target='_blank' alt='livesite'>Live Site</a>],
         slug: 'massagetherapy'
     },
     {
@@ -64,7 +64,7 @@ export const ProjectData = [
         tools: 'React, HMTL, SCSS, GitHub',
         links: <a href="https://github.com/Stelio123/portfolio-project" rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>,
         projectImage:<img src={require('../assets/images/port-wireframes.png')} alt= 'food explorer full screen'></img>,
-        description: 'A simple portfolio site to showcase my personality and work. A screen shot of my wireframes shown above, I took a mobile first approach when creating/designing this website. I made some changes as i started coding my portfolio, but I was still able to stick with continues brand.',
+        description: 'A simple portfolio site to showcase my personality and work. A screen shot of my wireframes shown above, I took a mobile first approach when creating/designing this website. I made some changes as i started coding my portfolio, but I was still able to stick with a continues brand.',
         slug: 'portfolio'
     }
 ]

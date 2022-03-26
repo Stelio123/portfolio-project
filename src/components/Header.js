@@ -18,7 +18,7 @@ function Header() {
                 className="logo">
                     <Link to= '/'><img src={require('../assets/images/logo2.png')} alt='logo' /></Link> 
                 </div>
-                <div>
+                <div aria-label="navigation menu">
                     <NavBar/>
                 </div>
         </motion.header>

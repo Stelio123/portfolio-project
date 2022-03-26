@@ -20,7 +20,7 @@ function About() {
           
           <div>
             <p>With a background in sound design, music production and audio engineering I 
-          strive to my bring my natural creativity to the world of web development. </p>
+          strive to my bring my natural creativity into the world of web development. </p>
           </div>
       </motion.div>
  </main>

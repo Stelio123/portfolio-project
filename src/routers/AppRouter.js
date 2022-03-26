@@ -1,6 +1,6 @@
 // AppRouter
 // Development Components
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, } from 'react-router-dom';
 import Header from '../components/Header';
 import Home from "../pages/Home";
 import About from "../pages/About";
@@ -10,12 +10,6 @@ import Contact from "../pages/Contact";
 import Footer from '../components/Footer';
 import {AnimatePresence} from 'framer-motion';
 import {useLocation} from 'react-router-dom';
-
-
-
-
-
-
 
 
 
