@@ -12,16 +12,16 @@
 .home-container {
     position: fixed;
     bottom: 20rem;
-    color: #f1f1f1;
+    color: $main-color;
     width: 100%;
     padding: 20px;
     text-align: center;
 
-    @media (min-width: 990px) {
+    @media (min-width: $laptop) {
         bottom: 20rem;
     }
 
-    @media (min-width: 1080px) {
+    @media (min-width: $desktop) {
         bottom: 23rem;
     }
 
@@ -30,14 +30,14 @@
 
 .name {
     font-family: 'Pulchella', serif;
-    color: white;
+    color: $main-color;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: $extra-big;
 }
 
 .tag-line {
     font-family: 'Bosch', sans-serif;
-    color: white;
+    color:$main-color;
     text-transform: uppercase;
 }
 
@@ -73,7 +73,7 @@
 .about-container {
     position: fixed;
     bottom: 15rem;
-    color: white;
+    color: $main-color;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -87,25 +87,25 @@
         margin: 0 auto;
     }
 
-    @media (min-width:990px) {
+    @media (min-width:$laptop) {
         bottom: 17rem;
         padding: 10px;
 
         p {
             margin: 10px auto;
             max-width: 450px;
-            font-size: 1rem;
+            font-size: $reg-size;
             max-width: 400px;
         }
 
     }
 
-    @media (min-width: 1080px) {
+    @media (min-width: $desktop) {
         bottom: 20rem;
         p {
             margin: 10px auto;
             max-width: 450px;
-            font-size: 1.2rem;
+            font-size: $mid-size;
             max-width: 400px;
         }
     }
@@ -121,7 +121,7 @@ img {
 
 
 
-    @media (min-width:990px) {
+    @media (min-width:$laptop) {
         max-width: 500px;
     }
 }
@@ -135,7 +135,7 @@ img {
 
 .project-title {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: $lrg-size;
 }
 
 
@@ -150,13 +150,13 @@ img {
         height: 100%;
         position: absolute;
         z-index: -1;
-        border: 2px solid white;
+        border: 2px solid $main-color;
         transition: all .25s ease-out;
      
     }
 
     &::before {
-        background-color: white;
+        background-color: $main-color;
         top: -15px;
         left: -15px;
     }
@@ -178,32 +178,32 @@ img {
         }
     }
 
-    @media (min-width: 400px) {
+    @media (min-width: $phone) {
         max-width: 80%;
         display: block;
         margin: 0 auto;
     }
 
-    @media (min-width: 500px) {
+    @media (min-width: $lrgPhone) {
         max-width: 80%;
     }
 
-    @media (min-width: 800px) {
+    @media (min-width: $tablet) {
         max-width: 50%;
     }
 
-    @media (min-width:990px) {
+    @media (min-width: $laptop) {
         max-width: 30%;
         display: block;
         margin: 0 auto;
 
     }
 
-    @media (min-width:1080px) {
+    @media (min-width: $desktop) {
         max-width: 50%;
     }
 
-    @media (min-width:1400px){
+    @media (min-width:$lrgDesktop){
         max-width: 30%;
     }
 
@@ -235,14 +235,13 @@ img {
     content: "•";
     text-align: center;
     opacity: 1;
-    color: white;
+    color: $main-color;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-dots li button:after {
     opacity: 1;
-    color: red;
 
 }
 
@@ -354,8 +353,8 @@ img {
     &_status {
         text-align: center;
         margin: 20px auto;
-        color: #fff;
-        font-size: 1.5rem;
+        color: $main-color;
+        font-size: $lrg-size;
         margin-bottom: 80px;
     }
 
@@ -367,7 +366,7 @@ img {
     display: block;
     margin: 0 auto;
 
-    @media (min-width: 990px){
+    @media (min-width: $laptop){
         display: none;
     }
 }
@@ -387,7 +386,7 @@ img {
 }
 
 .indiv-container {
-    color: #f1f1f1;
+    color: $main-color;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -402,10 +401,10 @@ img {
     h3,
     h4 {
         text-decoration: underline;
-        color: white;
+        color: $main-color;
     }
 
-    @media (min-width:990px) {
+    @media (min-width: $laptop) {
         p {
             margin: 0 auto;
             max-width: 50rem;
@@ -418,7 +417,7 @@ img {
     display: flex;
     justify-content: space-around;
 
-    @media (min-width:990px) {
+    @media (min-width: $laptop) {
         justify-content: space-evenly;
     }
 }
@@ -426,18 +425,13 @@ img {
 .indiv-img,
 .mock-img {
 
-    @media (min-width:990px) {
+    @media (min-width: $laptop) {
         padding: 10px;
         max-width: 30%;
         max-height: 30%;
     }
 
 }
-
-.indiv-sum {
-
-}
-
 
 
 
@@ -454,7 +448,7 @@ img {
 .contact-container {
     position: fixed;
     bottom: 20rem;
-    color: #f1f1f1;
+    color: $main-color;
     width: 100%;
     padding: 20px;
     text-align: center;
@@ -466,7 +460,7 @@ img {
         margin: 0 auto;
     }
 
-    @media (min-width:990px) {
+    @media (min-width: $laptop) {
         bottom: 20rem;
         margin: 0 auto;
         padding: 25px;
@@ -477,11 +471,11 @@ img {
         }
     }
 
-    @media (min-width:1080px){
+    @media (min-width: $desktop){
         bottom: 23rem;
 
         p {
-            font-size: 1.2rem;
+            font-size: $mid-size;
 
         }
 
@@ -490,7 +484,7 @@ img {
 
 
 .cta-contact {
-    color: black;
+    color:$second-color;
     text-align: center;
     display: block;
     margin: 0 auto;

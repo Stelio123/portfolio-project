@@ -1,16 +1,19 @@
 // Styles
 
+//Variables
+@import './variables';
+
 // Resets
-@use './reset';
-@use './typography';
+@import './reset';
+@import './typography';
 
 // Components
-@use './body';
-@use './wrapper';
-@use './header';
-@use './nav';
-@use './main';
-@use './footer';
+@import './body';
+@import './wrapper';
+@import './header';
+@import './nav';
+@import './main';
+@import './footer';
 
 
 //Imports
