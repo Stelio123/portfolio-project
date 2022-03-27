@@ -18,8 +18,8 @@
     text-align: center;
 
 
-    @media (min-width: $desktop) {
-        bottom: 15rem;
+    @media (min-width:$desktop) {
+        bottom: 15rem !important;
     }
 
     @media (min-width: $lrgDesktop) {
@@ -91,7 +91,7 @@
 
 
     @media (min-width: $desktop) {
-        bottom: 10rem;
+        bottom: 10rem !important;
         p {
             margin: 10px auto;
             max-width: 450px;
@@ -467,7 +467,7 @@ img {
     }
 
     @media (min-width: $desktop){
-        bottom: 16rem;
+        bottom: 16rem !important;
 
         p {
             font-size: $mid-size;
