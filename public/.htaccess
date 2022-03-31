@@ -1,4 +1,8 @@
 Options -MultiViews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !/snos-movies
+RewriteCond %{REQUEST_URI} !/minesweeper
+RewriteCond %{REQUEST_URI} !/caluculator
+RewriteCond %{REQUEST_URI} !/food-explorer
 RewriteRule ^ index.html [QSA,L]

@@ -19,7 +19,7 @@
 
 
     @media (min-width:$desktop) {
-        bottom: 15rem !important;
+        bottom: 15rem;
     }
 
     @media (min-width: $lrgDesktop) {
@@ -91,7 +91,7 @@
 
 
     @media (min-width: $desktop) {
-        bottom: 10rem !important;
+        bottom: 10rem;
         p {
             margin: 10px auto;
             max-width: 450px;
@@ -467,7 +467,7 @@ img {
     }
 
     @media (min-width: $desktop){
-        bottom: 16rem !important;
+        bottom: 16rem;
 
         p {
             font-size: $mid-size;
@@ -477,7 +477,7 @@ img {
     }
 
     @media (min-width: $lrgDesktop) {
-        bottom: 24rem;
+        bottom: 25rem;
         
     }
 }
