@@ -19,12 +19,12 @@
 
 
     @media (min-width:$desktop) {
-        bottom: 10rem;
+        bottom: 17rem;
     }
 
-    @media (min-width: $lrgDesktop) {
-        bottom: 24rem;
-        
+    @media (min-width:$lrgDesktop){
+        bottom: 23rem;
+       
     }
 
 
@@ -90,7 +90,7 @@
     }
 
 
-    @media (min-width: $desktop) {
+    @media (min-width: $laptop) {
         bottom: 10rem;
         p {
             margin: 10px auto;
@@ -100,9 +100,19 @@
         }
     }
 
-    @media (min-width: $lrgDesktop) {
-        bottom: 19rem;
+    @media (min-width:$desktop) {
+        bottom: 12rem;
         
+    }
+
+    @media (min-width:$lrgDesktop){
+        bottom: 23rem;
+        p {
+            padding: 10px;
+            max-width: 600px;
+            display: block;
+            margin: 0 auto;
+        }
     }
 
 }
@@ -116,7 +126,7 @@ img {
 
 
 
-    @media (min-width:$laptop) {
+    @media (min-width:$lrgTablet) {
         max-width: 500px;
     }
 }
@@ -187,18 +197,18 @@ img {
         max-width: 50%;
     }
 
-    @media (min-width: $laptop) {
+    @media (min-width: $lrgTablet) {
         max-width: 30%;
         display: block;
         margin: 0 auto;
 
     }
 
-    @media (min-width: $desktop) {
+    @media (min-width: $laptop) {
         max-width: 50%;
     }
 
-    @media (min-width:$lrgDesktop){
+    @media (min-width:$desktop){
         max-width: 30%;
     }
 
@@ -361,7 +371,7 @@ img {
     display: block;
     margin: 0 auto;
 
-    @media (min-width: $laptop){
+    @media (min-width: $lrgTablet){
         display: none;
     }
 }
@@ -399,7 +409,7 @@ img {
         color: $main-color;
     }
 
-    @media (min-width: $laptop) {
+    @media (min-width: $lrgTablet) {
         p {
             margin: 0 auto;
             max-width: 50rem;
@@ -412,7 +422,7 @@ img {
     display: flex;
     justify-content: space-around;
 
-    @media (min-width: $laptop) {
+    @media (min-width: $lrgTablet) {
         justify-content: space-evenly;
     }
 }
@@ -420,7 +430,7 @@ img {
 .indiv-img,
 .mock-img {
 
-    @media (min-width: $laptop) {
+    @media (min-width: $lrgTablet) {
         padding: 10px;
         max-width: 30%;
         max-height: 30%;
@@ -455,7 +465,7 @@ img {
         margin: 0 auto;
     }
 
-    @media (min-width: $laptop) {
+    @media (min-width: $lrgTablet) {
         bottom: 20rem;
         margin: 0 auto;
         padding: 25px;
@@ -466,7 +476,7 @@ img {
         }
     }
 
-    @media (min-width: $desktop){
+    @media (min-width: $laptop){
         bottom: 16rem;
 
         p {
@@ -476,9 +486,13 @@ img {
 
     }
 
-    @media (min-width: $lrgDesktop) {
-        bottom: 25rem;
+    @media (min-width: $desktop) {
+        bottom: 17rem;
         
+    }
+
+    @media (min-width:$lrgDesktop){
+        bottom: 25rem;
     }
 }
 
