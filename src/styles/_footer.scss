@@ -9,9 +9,14 @@ footer {
 
 
 .social-icons {
+    display: none;;
+
+    @media (min-width: $lrgTablet) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;     
+    }
+   
 
 
 

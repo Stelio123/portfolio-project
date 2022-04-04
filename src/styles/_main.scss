@@ -147,8 +147,36 @@ img {
 
 .image-container {
     position: relative;
+  
+    img{
+        border: 3px solid white;
+        border-radius: 8px;
+    }
 
-    &::before,
+    @media (min-width: $phone) {
+        max-width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    @media (min-width: $lrgPhone) {
+        max-width: 80%;
+    }
+
+    @media (min-width: $tablet) {
+        max-width: 50%;
+    }
+
+    @media (min-width: $lrgTablet) {
+        max-width: 30%;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    @media (min-width: $laptop) {
+        max-width: 50%;
+            &::before,
     &::after {
         content: "";
         width: 100%;
@@ -182,30 +210,6 @@ img {
             right: 15px;
         }
     }
-
-    @media (min-width: $phone) {
-        max-width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-
-    @media (min-width: $lrgPhone) {
-        max-width: 80%;
-    }
-
-    @media (min-width: $tablet) {
-        max-width: 50%;
-    }
-
-    @media (min-width: $lrgTablet) {
-        max-width: 30%;
-        display: block;
-        margin: 0 auto;
-
-    }
-
-    @media (min-width: $laptop) {
-        max-width: 50%;
     }
 
     @media (min-width:$desktop){
