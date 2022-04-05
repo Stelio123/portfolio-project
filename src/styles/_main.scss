@@ -17,6 +17,10 @@
     padding: 20px;
     text-align: center;
 
+    @media (min-width: $lrgTablet) {
+        bottom: 12rem;
+    }
+
 
     @media (min-width:$desktop) {
         bottom: 17rem;
@@ -279,6 +283,10 @@ img {
     text-align: center;
     color: white;
 
+    @media (min-width: $lrgTablet) {
+        bottom: 3rem;
+    }
+
     li .slick-active button:before {
         position: relative;
         display: inline-block;
@@ -488,7 +496,7 @@ img {
     }
 
     @media (min-width: $lrgTablet) {
-        bottom: 20rem;
+        bottom: 14rem;
         margin: 0 auto;
         padding: 25px;
         max-width: 600px;

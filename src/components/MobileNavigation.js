@@ -18,20 +18,20 @@ const MobileNavigation = () => {
         <nav className='mobile-nav'>
             <div className="navbar">
                 <div className="container nav-container">
+                <label htmlFor="burger" onClick ={() => setIsOpen(!isOpen)}/>  
                     <input 
                     className="checkbox" 
                     type="checkbox" 
                     readOnly={true}
                     id="burger" 
-                    alt="navigation burger"/>
-                    <label htmlFor="burger" onClick={blurOnClick}/>                        
+                    alt="navigation burger"/>                      
                         <div className="hamburger-lines">
                             <span className="line line1"></span>
                             <span className="line line2"></span>
                             <span className="line line3"></span>
                         </div>  
-                            <div className="menu-items">
-                                <NavLinks onClick ={() => setIsOpen(!isOpen)} />
+                            <div className="menu-items" onClick={blurOnClick}>
+                                <NavLinks />
                                  {/* {open && <NavLinks isMobile={true} closeMobile ={closeMobileNav} />}  */}
                             </div>
                 </div>

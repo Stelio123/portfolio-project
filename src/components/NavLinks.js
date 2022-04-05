@@ -1,23 +1,23 @@
 import {NavLink} from 'react-router-dom';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const NavLinks = () => {
 
 
-    const [isOpen, setIsOpen] = useState(false);
+//     const [isOpen, setIsOpen] = useState(false);
 
-  function blurOnClick(e) {
+//   function blurOnClick(e) {
 
-      e.target.blur();
-  }
+//       e.target.blur();
+//   }
 
     return ( 
        
     <ul>
-        <li><NavLink onClick ={() => setIsOpen(!isOpen)} aria-label="home page" className="nav-link" to="/">Home</NavLink></li>
-        <li><NavLink onClick ={blurOnClick} aria-label="about page" className="nav-link" to="/about">About</NavLink></li>
-        <li><NavLink onClick ={blurOnClick} aria-label="work page" className="nav-link" to="/work">Work</NavLink></li>
-        <li><NavLink onClick ={blurOnClick} aria-label="contact page" className="nav-link" to="/contact">Contact</NavLink></li> 
+        <li><NavLink aria-label="home page" className="nav-link" to="/">Home</NavLink></li>
+        <li><NavLink aria-label="about page" className="nav-link" to="/about">About</NavLink></li>
+        <li><NavLink aria-label="work page" className="nav-link" to="/work">Work</NavLink></li>
+        <li><NavLink aria-label="contact page" className="nav-link" to="/contact">Contact</NavLink></li> 
         <li className='linkedin-mobile'><a href="https://www.linkedin.com/in/stelio-langaditis"  rel='noreffer noopener' target='_blank' alt='linkedin'>
             <svg  aria-label="linkedin" xmlns="http://www.w3.org/2000/svg" width="31.5" height="31.499" viewBox="0 0 31.5 31.499">
             <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M7.051,31.5H.52V10.47H7.051ZM3.782,7.6A3.8,3.8,0,1,1,7.564,3.783,3.814,3.814,0,0,1,3.782,7.6ZM31.493,31.5H24.976V21.263c0-2.44-.049-5.569-3.4-5.569-3.4,0-3.916,2.651-3.916,5.393V31.5H11.142V10.47h6.263v2.869H17.5a6.862,6.862,0,0,1,6.179-3.4c6.609,0,7.824,4.352,7.824,10.005V31.5Z" 

@@ -4,7 +4,7 @@
 .desk-nav {
     display: none;
 
-    @media (min-width: $laptop) {
+    @media (min-width: $lrgTablet) {
         display: flex;
         flex-wrap: nowrap;
 
