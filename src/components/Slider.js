@@ -66,7 +66,7 @@ export default function SimpleSlider() {
 <section>
     <h1 className='project-title'>Selected Works</h1>
     <div className='slider-container'>
-    <Slider {...settings}>
+    { <Slider {...settings}>
         {projects.map((project, index) => (
           <div className="tarikComandSlider" key={index}>
                 <article className='commandSlider__item'>
@@ -75,11 +75,11 @@ export default function SimpleSlider() {
                 <Link to={`/${project.id}`}><img className='commandSlider__item_photo' src={project.image} alt='display card'/></Link>
             </div>
                 <h2 className='commandSlider__item_status'>{project.caption}</h2>
-                <Link className="see-more" to={`/${project.id}`}><a aria-label="to individual works page" href="/work">See More</a></Link>
+                <Link className="see-more" to={`/${project.id}`}><button>See More</button></Link>
                 </article>
           </div>
         ))}
-    </Slider>  
+    </Slider>   }
     </div>
     
     </section>

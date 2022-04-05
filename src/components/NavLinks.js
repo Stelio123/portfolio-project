@@ -1,7 +1,8 @@
 import {NavLink} from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-const NavLinks = (props) => {
+
+const NavLinks = () => {
 
     const animateFrom = {opacity: 0, y: -40 }
     const animateTo = {opacity: 1, y: 0}
@@ -12,26 +13,22 @@ const NavLinks = (props) => {
         <motion.li 
             initial   ={animateFrom}
             animate   ={animateTo}
-            transition={{delay: 0.05}}
-            onClick   ={() => props.isMobile && props.closeMobileNav()}><NavLink aria-label="home page" className="nav-link" to="/">Home</NavLink>
+            transition={{delay: 0.05}}><NavLink aria-label="home page" className="nav-link" to="/">Home</NavLink>
         </motion.li>
         <motion.li 
             initial   ={animateFrom}
             animate   ={animateTo}
-            transition={{delay: 0.10}}
-            onClick   ={() => props.isMobile && props.closeMobileNav()}><NavLink aria-label="about page" className="nav-link" to="/about">About</NavLink>
+            transition={{delay: 0.10}}><NavLink aria-label="about page" className="nav-link" to="/about">About</NavLink>
         </motion.li>
         <motion.li
             initial   ={animateFrom}
             animate   ={animateTo}
-            transition={{delay: 0.20}}
-            onClick   ={() => props.isMobile && props.closeMobileNav()}><NavLink aria-label="work page" className="nav-link" to="/work">Work</NavLink>
+            transition={{delay: 0.20}}><NavLink aria-label="work page" className="nav-link" to="/work">Work</NavLink>
         </motion.li>
         <motion.li
             initial   ={animateFrom}
             animate   ={animateTo}
-            transition={{delay: 0.30}}
-            onClick   ={() => props.isMobile && props.closeMobileNav()}><NavLink aria-label="contact page" className="nav-link" to="/contact">Contact</NavLink></motion.li> 
+            transition={{delay: 0.30}}><NavLink aria-label="contact page" className="nav-link" to="/contact">Contact</NavLink></motion.li> 
     </ul>
     );
 }

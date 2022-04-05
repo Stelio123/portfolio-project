@@ -1,25 +1,21 @@
 // Footer
 
 footer {
+    display: none;
+
+    @media (min-width: $lrgTablet) {
     position: sticky;
     bottom: 0;
     z-index: 999;
-    width: 100%;
+    width: 100%;       
+    }
+ 
 }
 
-
 .social-icons {
-    display: none;;
-
-    @media (min-width: $lrgTablet) {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;     
-    }
-   
-
-
-
 
     .linkedin,
     .github,

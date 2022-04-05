@@ -21,7 +21,7 @@ function Home() {
       <h1 className='name'>Stelio Langaditis</h1>
       <p className='tag-line'>Front-end web developer</p>
       <div className='btn-container'>
-        <Link to='work'><button aria-label="work page" className='cta-work'>click me</button></Link>
+        <Link to='work'><button aria-label="work page" className='cta-work'>enter</button></Link>
       </div>
     </motion.div>
     </main>
