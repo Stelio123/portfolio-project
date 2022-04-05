@@ -4,6 +4,8 @@ footer {
     display: none;
 
     @media (min-width: $lrgTablet) {
+    display: flex;
+    justify-content: center;
     position: sticky;
     bottom: 0;
     z-index: 999;
@@ -13,7 +15,9 @@ footer {
 }
 
 .social-icons {
-    display: flex;
+
+    @media (min-width: $lrgTablet) {
+     display: flex;
     flex-wrap: wrap;
     justify-content: center;     
 
@@ -32,6 +36,8 @@ footer {
             text-decoration: underline;
             text-decoration-color: $main-color;
         }
+    }    
     }
+   
 
 }

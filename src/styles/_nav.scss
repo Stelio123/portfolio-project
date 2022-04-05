@@ -200,6 +200,7 @@ top:15rem;
     transform: translate(150%);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin-left: -152px;
     margin-right: 100px;
     padding-left: 60px;
@@ -207,13 +208,24 @@ top:15rem;
     transition: transform 0.5s ease-in-out;
     text-align: center;
 
-    .linkedin,
-    .github,
-    .email {
+    .linkedin-mobile,
+    .github-mobile,
+    .email-mobile {
+      display: flex;
       justify-content: space-between; 
-     padding: 0px 10px 25px 50px;
+
+      @media (min-width: $lrgTablet) {
+        display: none;
+      }
     }
 
+  }
+
+  .mobile-links {
+    display: flex;
+    @media (min-width: $lrgTablet) {
+      display: none;
+    }
   }
   
   .navbar .menu-items li{
