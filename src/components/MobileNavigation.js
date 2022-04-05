@@ -6,33 +6,32 @@ import { NavLink } from 'react-router-dom';
 
 const MobileNavigation = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
+    const [openHamburger, setHamburger] = useState(false);
 
-    function blurOnClick(e) {
-        console.log(e.target);
-
-        e.target.blur();
-    }
+    const showHamburger = () => setHamburger(!openHamburger)
+    
 
     return (
         <nav className='mobile-nav'>
             <div className="navbar">
                 <div className="container nav-container">
-                <label htmlFor="burger" onClick ={() => setIsOpen(!isOpen)}/>  
+                <label htmlFor="burger" />  
                     <input 
                     className="checkbox" 
                     type="checkbox" 
+                    checked= {showHamburger ? true : false}
                     readOnly={true}
                     id="burger" 
-                    alt="navigation burger"/>                      
+                    alt="navigation burger"/>  
+                        <label htmlFor= "burger" onClick= {showHamburger}>
                         <div className="hamburger-lines">
                             <span className="line line1"></span>
                             <span className="line line2"></span>
                             <span className="line line3"></span>
                         </div>  
-                            <div className="menu-items" onClick={blurOnClick}>
-                                <NavLinks />
-                                 {/* {open && <NavLinks isMobile={true} closeMobile ={closeMobileNav} />}  */}
+                        </label>
+                            <div className="menu-items" >
+                                <NavLinks onClick = {showHamburger}/>
                             </div>
                 </div>
             </div>

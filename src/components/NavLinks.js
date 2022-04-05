@@ -4,13 +4,6 @@ import {NavLink} from 'react-router-dom';
 const NavLinks = () => {
 
 
-//     const [isOpen, setIsOpen] = useState(false);
-
-//   function blurOnClick(e) {
-
-//       e.target.blur();
-//   }
-
     return ( 
        
     <ul>

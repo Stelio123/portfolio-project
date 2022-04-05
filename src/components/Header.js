@@ -7,6 +7,8 @@ import {motion} from 'framer-motion';
 
 function Header() {
 
+   
+
     return (
         <motion.header 
         initial  ={{ scaleY: 0 }}

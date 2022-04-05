@@ -17,14 +17,15 @@ function AppRouter() {
 
   const location = useLocation();
 
+
   return (
     <div className="wrapper">
         <Header/>
         <AnimatePresence exitBeforeEnter initial={false} >
         <Routes location={location} key={location.pathname}>
-          <Route path="/" element={<Home/>}/>
-          <Route path="about" element={<About/>}/>
-          <Route path ="work" element={<Work/>}/>
+          <Route path="/" element={<Home />}/>
+          <Route path="about" element={<About />}/>
+          <Route path ="work" element={<Work />}/>
           <Route path="/:slug" element={<IndividualWorkPage/>}/>
           <Route path ="contact" element={<Contact/>}/>
         </Routes>

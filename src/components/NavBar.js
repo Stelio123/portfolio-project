@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 function NavBar() {
   return (
     <div>
-        <MobileNavigation />
+        <MobileNavigation  />
         <Navigation />
     </div>
   );         
