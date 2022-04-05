@@ -15,6 +15,14 @@
     
     }
 
+    .linkedin-mobile,
+    .github-mobile,
+    .email-mobile {
+        @media (min-width: $lrgTablet) {
+            display: none;
+        }
+    }
+
 }
 
 .logo {

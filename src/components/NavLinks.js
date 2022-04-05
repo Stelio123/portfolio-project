@@ -13,7 +13,7 @@ const NavLinks = () => {
 
     return ( 
        
-    <ul className="mobile-links">
+    <ul>
         <li><NavLink onClick ={() => setIsOpen(!isOpen)} aria-label="home page" className="nav-link" to="/">Home</NavLink></li>
         <li><NavLink onClick ={blurOnClick} aria-label="about page" className="nav-link" to="/about">About</NavLink></li>
         <li><NavLink onClick ={blurOnClick} aria-label="work page" className="nav-link" to="/work">Work</NavLink></li>

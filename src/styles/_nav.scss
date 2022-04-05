@@ -211,21 +211,9 @@ top:15rem;
     .linkedin-mobile,
     .github-mobile,
     .email-mobile {
-      display: flex;
       justify-content: space-between; 
-
-      @media (min-width: $lrgTablet) {
-        display: none;
-      }
     }
 
-  }
-
-  .mobile-links {
-    display: flex;
-    @media (min-width: $lrgTablet) {
-      display: none;
-    }
   }
   
   .navbar .menu-items li{
