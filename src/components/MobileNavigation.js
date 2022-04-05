@@ -1,24 +1,36 @@
+// import { useState } from 'react';
 import NavLinks from './NavLinks';
-import {HiOutlineMenuAlt1} from 'react-icons/hi';
-import {MdCloseFullscreen} from 'react-icons/md';
-import {useState} from 'react';
+import Footer from './Footer';
 
 
 const MobileNavigation = () => {
 
-    const [open, setOpen] = useState(false);
+    // const [openHamburger, setHamburger] = useState(false);
 
-    const hamburgerIcon = <HiOutlineMenuAlt1 className='hamburger' size='35px' onClick={()=>setOpen(!open)}/>
-
-    const hamburgerIconClose = <MdCloseFullscreen className='hamburger' size='35px'fill='white' onClick ={() => setOpen(!open)} />
-
-    const closeMobileNav = () => setOpen(false); 
-
+    // const showHamburger = () => setHamburger(!openHamburger)
+    
 
     return (
         <nav className='mobile-nav'>
-            {open ? hamburgerIconClose : hamburgerIcon}
-            {open && <NavLinks isMobile={true} closeMobileNav={closeMobileNav}/> }
+            <div className="navbar">
+                <div className="container nav-container">
+                    <input 
+                    className="checkbox" 
+                    type="checkbox" 
+                    readOnly={true}
+                    id="burger" 
+                    alt="navigation burger"/>  
+                        <div className="hamburger-lines" >
+                            <span className="line line1"></span>
+                            <span className="line line2"></span>
+                            <span className="line line3"></span>
+                        </div> 
+                            <div className="menu-items" >
+                                <NavLinks />
+                            </div>
+                </div>
+            </div>
+       
         </nav>
     );
 }

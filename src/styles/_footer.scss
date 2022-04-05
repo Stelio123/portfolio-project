@@ -1,25 +1,25 @@
 // Footer
 
 footer {
-    position: sticky;
-    bottom: 0;
-    z-index: 999;
-    width: 100%;
-}
-
-
-.social-icons {
-    display: none;;
+    display: none;
 
     @media (min-width: $lrgTablet) {
     display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 999;
+    width: 100%;       
+    }
+ 
+}
+
+.social-icons {
+
+    @media (min-width: $lrgTablet) {
+     display: flex;
     flex-wrap: wrap;
     justify-content: center;     
-    }
-   
-
-
-
 
     .linkedin,
     .github,
@@ -36,6 +36,8 @@ footer {
             text-decoration: underline;
             text-decoration-color: $main-color;
         }
+    }    
     }
+   
 
 }
