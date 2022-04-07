@@ -43,6 +43,16 @@
 
 .sidebar{
   margin: 20px 200px;
+  display: block;
+
+  @media (min-width: $lrgPhone){
+    margin: 20px 300px;
+  }
+
+  @media (min-width: $tablet) {
+    margin: 20px 600px;
+
+  }
 
   @media (min-width:$lrgTablet) {
     display: none;
@@ -124,6 +134,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (min-width: $lrgPhone) {
+width: 47.5rem;
+  }
+
+  @media (min-width: $tablet) {
+    width: 85.5rem;
+  }
 }
 
 span{
