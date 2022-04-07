@@ -488,6 +488,21 @@ img {
     padding: 20px;
     text-align: center;
 
+    .contact-icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;     
+    
+        .linkedin,
+        .github,
+        .email {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            margin: 0px 10px 0px 10px;
+    
+    }
+
     p {
         padding: 10px;
         max-width: 300px;
@@ -525,12 +540,13 @@ img {
         bottom: 25rem;
     }
 }
-
-
-.cta-contact {
-    color:$second-color;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    text-decoration: none;
 }
+
+
+// .cta-contact {
+//     color:$second-color;
+//     text-align: center;
+//     display: block;
+//     margin: 0 auto;
+//     text-decoration: none;
+// }
