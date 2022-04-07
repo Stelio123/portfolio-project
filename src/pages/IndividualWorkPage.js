@@ -36,6 +36,7 @@ function IndividualWorkPage() {
           <img className ='indiv-img'src={project.image} alt='project'/>
             <p className='indiv-links'>{project.links}</p>
               <p className='indiv-sum'>{project.summary}</p>
+                <p className ='indiv-tool-used'>{project.toolsUsed}</p>
                 <p className='indiv-tool'>{project.tools}</p>
                   <h3 className='indiv-mock-title'>{project.mockTitle}</h3>
                     <div className='mock-div'>{project.projectImage}</div>
