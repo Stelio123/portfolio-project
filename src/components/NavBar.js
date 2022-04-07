@@ -1,12 +1,12 @@
 import React from 'react'
-import MobileNavigation from './MobileNavigation';
 import Navigation from './Navigation';
+import SideBarNav from './SideBarNav';
 
 
 function NavBar() {
   return (
     <div>
-        <MobileNavigation  />
+        <SideBarNav />
         <Navigation />
     </div>
   );         
