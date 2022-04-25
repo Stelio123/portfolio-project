@@ -366,6 +366,7 @@ img {
     padding: 0px 20px 23px 20px;
     box-shadow: inset -141px -129px 200px rgba(0, 0, 0, 0.25);
 
+
     &:hover {
         box-shadow: inset 141px 129px 200px rgba(0, 0, 0, 0.25);
 
@@ -464,14 +465,37 @@ img {
 }
 
 .indiv-img,
-.mock-img {
+.mock-div {
+    border: 3px solid white;
+    border-radius: 8px;
+    margin: 0 auto;
+    
 
     @media (min-width: $lrgTablet) {
-        padding: 10px;
         max-width: 30%;
         max-height: 30%;
     }
 
+}
+
+.individual-btn {
+    @media (min-width: $lrgTablet){
+    display: block;
+    margin: 20px auto;
+    background:white;
+	border-bottom: 6px inset rgba(0,0,0,.5);
+	border-left: 6px inset rgba(0,0,0,.5);
+	border-right: 6px inset rgba(255,255,255,.5);
+	border-top: 6px inset rgba(255,255,255,.5);
+	box-sizing: border-box;
+	color: $second-color;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1rem;
+    color: $second-color;
+	min-width: 50px;
+	width: 100px;
+    }
 }
 
 

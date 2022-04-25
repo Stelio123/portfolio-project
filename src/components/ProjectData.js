@@ -33,7 +33,7 @@ export const ProjectData = [
         summary:'Built a basic calculator using React and CSS. I consider this a passion project because I wanted to practice my newly learned React/ JavaScript skills. ',
         toolsUsed: 'Tools Used:',
         tools: 'React, CSS',
-        links: <a href="https://steliocodes.com/calculator/" rel='noreffer noopener' target='_blank' alt='live site'>Live Site</a>,
+        links: <a href="https://steliocodes.com/calculator-app/" rel='noreffer noopener' target='_blank' alt='live site'>Live Site</a>,
         projectImage: <img src={require('../assets/images/calc-screen-shot.png')} alt= 'calculator'></img>,
         slug: 'calculator'
 

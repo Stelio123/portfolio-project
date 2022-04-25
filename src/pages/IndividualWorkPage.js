@@ -40,8 +40,8 @@ function IndividualWorkPage() {
                 <p className='indiv-tool'>{project.tools}</p>
                   <h3 className='indiv-mock-title'>{project.mockTitle}</h3>
                     <div className='mock-div'>{project.projectImage}</div>
-                    <p className='indiv-sum'>{project.description}</p>
-                    <Link to='/work'><button aria-label="work page" href='Work.js'> Back</button></Link>
+                    <p className='description'>{project.description}</p>
+                    <Link to='/work'><button aria-label="work page" href='Work.js' className='individual-btn'> Back</button></Link>
 
       </motion.div>         
       )}
