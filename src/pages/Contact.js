@@ -18,7 +18,7 @@ function Contact() {
         <h1>Lets Connect</h1>
           <p>Im always open to questions about my work and happy to discuss any opportunities or collaborations!</p>
           <div className='btn-container'>
-        <button className='cta-contact' href="mailto:slangaditis96@gmail.com">email</button>
+        <a href="mailto:slangaditis96@gmail.com"><button className='cta-contact'>email</button></a>
       </div>
     </motion.div>      
     </main>
