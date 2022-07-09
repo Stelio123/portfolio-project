@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundVideo from '../assets/videos/about.mp4';
+import backgroundVideo from '../assets/videos/aboutme2.mp4';
 import {motion} from 'framer-motion';
 
 function About() {
@@ -15,13 +15,20 @@ function About() {
      transition ={{duration:0.5}}
      className  ='about-container'>
         <h1>About Me</h1>
-          <p>I'm a front end web developer and web designer based in Vancouver, BC.
+        <section className ="about-me">
+        <div>
+          <p>I'm a front-end web developer and designer based in Vancouver, BC.
           I design simple but highly functional, interactive and responsive websites.</p>
-          
-          <div>
-            <p>With a background in sound design, music production and audio engineering I 
-          strive to my bring my natural creativity into the world of web development. </p>
-          </div>
+
+         
+            <p>I have a passion for seeing creative visions come true.
+              As a  dedicated front-end web developer and designer who posses a well-developed combination of technical skills and creative abilities. 
+              I'm proud to write clean concise code and have an innovative spirit.</p>
+        </div>
+
+          <img className="me" src={require('../assets/images/me.png')} alt= 'Stelio Langaditis'></img>
+
+          </section>
       </motion.div>
  </main>
     

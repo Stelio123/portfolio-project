@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundVideo from '../assets/videos/contact-video1.mp4';
+import backgroundVideo from '../assets/videos/about.mp4';
 import {motion} from 'framer-motion';
 
 
