@@ -78,7 +78,7 @@
 
 .about-container {
     position: fixed;
-    bottom: 4rem;
+    bottom: 0rem;
     color: $main-color;
     width: 100%;
     padding: 20px;
@@ -94,6 +94,7 @@
     }
 
     .me {
+        max-width: 200px;
         border-radius: 80%;
         @media (min-width: $lrgTablet) {
            border-radius: 80%;
