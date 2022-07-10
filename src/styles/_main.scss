@@ -131,8 +131,13 @@
     }
 
     @media (min-width:$desktop) {
-        bottom: 6rem;
-        p{
+        bottom: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+                p{
             max-width: 600px;
         }
         
