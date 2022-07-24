@@ -59,6 +59,7 @@
 
 
 .cta-work {
+    border: none;
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -219,41 +220,41 @@ img {
     }
 
     @media (min-width: $laptop) {
-        max-width: 50%;
-            &::before,
-    &::after {
-        content: "";
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: -1;
-        border: 2px solid $main-color;
-        transition: all .25s ease-out;
+    //     max-width: 50%;
+    //         &::before,
+    // &::after {
+    //     content: "";
+    //     width: 100%;
+    //     height: 100%;
+    //     position: absolute;
+    //     z-index: -1;
+    //     border: 2px solid $main-color;
+    //     transition: all .25s ease-out;
      
-    }
+    // }
 
-    &::before {
-        background-color: $main-color;
-        top: -15px;
-        left: -15px;
-    }
+    // &::before {
+    //     background-color: $main-color;
+    //     top: -15px;
+    //     left: -15px;
+    // }
 
-    &::after {
-        bottom: -15px;
-        right: -15px;
-    }
+    // &::after {
+    //     bottom: -15px;
+    //     right: -15px;
+    // }
 
-    &:hover {
-        &::before {
-            top: 15px;
-            left: 15px;
-        }
+    // &:hover {
+    //     &::before {
+    //         top: 15px;
+    //         left: 15px;
+    //     }
 
-        &::after {
-            bottom: 15px;
-            right: 15px;
-        }
-    }
+    //     &::after {
+    //         bottom: 15px;
+    //         right: 15px;
+    //     }
+    // }
     }
 
     @media (min-width:$desktop){
@@ -425,11 +426,12 @@ img {
     display: block;
     margin: 0 auto;
     background:white;
-	border-bottom: 6px inset rgba(0,0,0,.5);
-	border-left: 6px inset rgba(0,0,0,.5);
-	border-right: 6px inset rgba(255,255,255,.5);
-	border-top: 6px inset rgba(255,255,255,.5);
-	box-sizing: border-box;
+	// border-bottom: 6px inset rgba(0,0,0,.5);
+	// border-left: 6px inset rgba(0,0,0,.5);
+	// border-right: 6px inset  rgba(90, 86, 86, 0.5);
+	// border-top: 6px inset rgba(103, 98, 98, 0.5);
+	// box-sizing: border-box;
+    border-radius: 15px 15px;
 	color: $second-color;
 	cursor: pointer;
 	display: inline-block;

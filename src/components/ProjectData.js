@@ -28,30 +28,6 @@ export const ProjectData = [
         slug: 'minesweeper'
     },
     {
-        title: 'Calculator',
-        image: require('../assets/images/calculator.png'),
-        summary:'Built a basic calculator using React and CSS. I consider this a passion project because I wanted to practice my newly learned React/ JavaScript skills. ',
-        toolsUsed: 'Tools Used:',
-        tools: 'React, CSS',
-        links: <a href="https://steliocodes.com/calculator-app/" rel='noreffer noopener' target='_blank' alt='live site'>Live Site</a>,
-        projectImage: <img src={require('../assets/images/calc-screen-shot.png')} alt= 'calculator'></img>,
-        slug: 'calculator'
-
-    },
-    {
-        title: 'Food Explorer',
-        image: require('../assets/images/food-ex.png'),
-        summary: 'Developed a fully responsive webpage in a team of two.',
-        toolsUsed: 'Tools Used:',
-        tools: 'HTML, SCSS, GitHub',
-        links: [<a  href="https://github.com/amyxueqi/food-explorer"  rel='noreffer noopener' target='_blank' alt='github'>GitHub</a>, 
-                <a  href="https://steliocodes.com/food-explorer/" rel='noreffer noopener' target='_blank' alt='live site'>Live Site</a>],
-        projectImage:<img src={require('../assets/images/food-full-shot.png')} alt= 'food explorer full screen'></img>,
-        description:'Developed a fully responsive replica of a restaurant home webpage. This project was built by me and a classmate. We built this webpage mobile first using HTML and SCSS all while working cooperatively through GitHub.',
-        slug: 'foodexplorer'
-
-    },
-    {
         title: 'Sacred Tree Massage Therapy',
         image: require('../assets/images/woo.png'),
         summary: 'Sacred Tree Massage Therapy is an e-commerce website built with WordPress and WooCommerce, which allows online appointment bookings. Sacred Tree is a fictional massage therapy clinic.',

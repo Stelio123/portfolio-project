@@ -1,13 +1,13 @@
 import React from 'react'
-import backgroundVideo from '../assets/videos/aboutme2.mp4';
+// import backgroundVideo from '../assets/videos/aboutme2.mp4';
 import {motion} from 'framer-motion';
 
 function About() {
   return (
  <main className='main-about'>
-    <video playsInline autoPlay loop muted paused id="myVideo">
+    {/* <video playsInline autoPlay loop muted paused id="myVideo">
       <source src={backgroundVideo} type="video/mp4"/>
-    </video>   
+    </video>    */}
      <motion.div 
      initial    ={{scaleY: 0}}
      animate    ={{scaleY: 1}}
