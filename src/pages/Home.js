@@ -8,15 +8,18 @@ function Home() {
 
   return (
     <main className='main-home'>
-    <video playsInline autoPlay loop muted paused id="myVideo">
+    <motion.video playsInline autoPlay loop muted paused id="myVideo"
+     initial    ={{scaleY: 0}}
+     animate    ={{scaleY: [1, 1.25, 1.5, 1, 1]}}
+     exit       ={{scaleY:0}}
+     transition ={{duration: 1}}>
       <source src={backgroundVideo} type="video/mp4"/>
-    </video>
+    </motion.video>
     <motion.div 
     initial    ={{scaleY: 0}}
-    animate    ={{scaleY: [1, 2, 2, 1, 1],
-                  rotate: [0, 0, 270, 270, 0]}}
+    animate    ={{scaleY: [1, 2, 2, 1, 1],}}
     exit       ={{scaleY:0}}
-    transition ={{duration: 0.8}}
+    transition ={{duration: 1.5}}
     className  ='home-container'>
       <h1 className='name'>Stelio Langaditis</h1>
       <p className='tag-line'>Front-end web developer <br/>Designer</p>

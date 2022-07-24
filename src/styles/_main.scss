@@ -45,6 +45,7 @@
     font-family: 'Bosch', sans-serif;
     color:$main-color;
     text-transform: uppercase;
+    font-size: $lrg-size;
 }
 
 #myVideo {
@@ -55,6 +56,27 @@
     top: 0;
     left: 0;
     z-index: -1;
+
+    @media (min-width: $laptop) {
+        width: 50%;
+        height: 50%;
+        left: 17rem;
+        top: 11rem;
+    }
+
+    @media (min-width: $desktop) {
+        width: 50%;
+        height: 50%;
+        left: 22rem;
+        top: 10rem;
+    }
+
+    @media (min-width:$lrgDesktop) {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+       margin: 3.75rem 8rem;
+    }
 }
 
 
@@ -147,6 +169,9 @@
 
     @media (min-width:$lrgDesktop){
         bottom: 10rem;
+        h1{
+            font-size: $extra-big;
+        }
         p {
             padding: 15px;
             max-width: 600px;
