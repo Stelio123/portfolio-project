@@ -5,7 +5,6 @@ import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import {SideBarData} from './SidebarData';
 import {IconContext} from 'react-icons';
-
 function SideBarNav() {
 
     const [sidebar, setSideBar] = useState(false);
