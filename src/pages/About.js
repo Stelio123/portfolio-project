@@ -14,19 +14,26 @@ function About() {
      exit       ={{scaleY: 0}}
      transition ={{duration:0.5}}
      className  ='about-container'>
-        <h1>About Me</h1>
+        <h1>About Me</h1>          
+        <img className="me" src={require('../assets/images/me.png')} alt= 'Stelio Langaditis'></img>
+
         <section className ="about-me">
         <div>
-          <p>I'm a front-end web developer and designer based in Vancouver, BC.
-          I design simple but highly functional, interactive and responsive websites.</p>
+          <p>A dedicated, self-motivated, creative, and passionate front-end web 
+            developer and designer following industry best practices. Skilled at developing 
+            cutting-edge web applications that work well across multiple platforms, including 
+            implementing design and code reviews to ensure high-quality outcomes meeting business and 
+            technical requirements.</p>
 
-         
-            <p>I have a passion for seeing creative visions come true.
-              As a  dedicated front-end web developer and designer who posses a well-developed combination of technical skills and creative abilities. 
-              I'm proud to write clean concise code and have an innovative spirit.</p>
+          <ul className="technical-skills">
+            <li>Experience building responsive websites and web applications using React, WordPress and Shopify.</li>
+            <li>Experience with CSS/SCSS, HTML, JavaScript, PHP, and MySQL.</li>
+            <li>Knowledge in REST API web services using JSON.</li>
+            <li>Competent in web usability/modern UI/UX best practices and SEO.</li>
+            <li>Experience with Adobe Illustrator, Photoshop, and XD.</li>
+          </ul>
         </div>
 
-          <img className="me" src={require('../assets/images/me.png')} alt= 'Stelio Langaditis'></img>
 
           </section>
       </motion.div>

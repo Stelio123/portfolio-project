@@ -111,9 +111,22 @@
 
     p {
         padding: 10px;
-        max-width: 400px;
+        max-width: 320px;
         display: block;
         margin: 0 auto;
+        text-align: left;
+    }
+
+    .technical-skills {
+        font-family: 'PT Serif', serif;
+        font-size: 1.2rem;
+        text-align: left;
+        max-width: 320px;
+        
+        @media (min-width: $laptop) {
+            max-width: 600px;
+        }
+
     }
 
     .me {
@@ -130,13 +143,22 @@
         @media (min-width: $lrgTablet) {
             display: flex;
             flex-wrap: nowrap;
-            align-content: center;
-            justify-content: space-evenly;
+            align-content: stretch;
+            padding: 20px 20px 20px 20px;
+            justify-content: center;
             align-items: center;
             flex-direction: column-reverse;
         }
+
+        @media (min-width: $laptop) {
+            margin: 10px;
+        }
         
     
+    }
+
+    @media (min-width: $phone) {
+        bottom: 2rem;
     }
 
     @media (min-width: $lrgTablet) {
@@ -146,11 +168,16 @@
 
     @media (min-width: $laptop) {
         bottom: 6rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
         p {
             margin: 10px auto;
             max-width: 450px;
             font-size: $mid-size;
-            max-width: 600px;
+            max-width: 300px;
         }
     }
 
