@@ -23,7 +23,7 @@
 
 
     @media (min-width:$desktop) {
-        bottom: 17rem;
+        bottom: 16rem;
     }
 
     @media (min-width:$lrgDesktop){
@@ -130,6 +130,7 @@
             object-fit: none;
             position: relative;
             max-width: 575px;
+            height: 500px;
         }
 
 

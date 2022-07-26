@@ -29,7 +29,7 @@ function About() {
         whileHover={{ scale: 1.3 }}
         onHoverStart={e => {}}
         onHoverEnd={e => {}}>
-          <img className="me" src={require('../assets/images/sl-hover.png')} alt= 'Stelio Langaditis'></img>
+          <img className="me" src={require('../assets/images/me.png')} alt= 'Stelio Langaditis'></img>
         </motion.div>
 
         <section className ="about-me">
@@ -39,9 +39,8 @@ function About() {
           onHoverEnd={e => {}}>        
             <p>dedicated, self-motivated, creative, and passionate front-end web 
             developer + designer following industry best practices. <br/>skilled at developing 
-            cutting-edge web applications that work across multiple platforms. <br/>
-            i love seeing visions come to life.</p>
-            <p>based in vancouver,bc.</p>
+            cutting-edge web applications that work across multiple platforms. <br/></p>
+            <p>based in vancouver, bc.</p>
           </motion.div>
         </section>
       </div>
