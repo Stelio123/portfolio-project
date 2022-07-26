@@ -39,8 +39,9 @@ function About() {
           onHoverEnd={e => {}}>        
             <p>dedicated, self-motivated, creative, and passionate front-end web 
             developer + designer following industry best practices. <br/>skilled at developing 
-            cutting-edge web applications that work across multiple platforms. <br/></p>
-            <p>born in kerkyra, greece<br/>raised in vancouver, bc <br/>based globally</p>
+            cutting-edge web applications that work across multiple platforms. <br/>
+            i love seeing visions come to life.</p>
+            <p>based in vancouver,bc.</p>
           </motion.div>
         </section>
       </div>
