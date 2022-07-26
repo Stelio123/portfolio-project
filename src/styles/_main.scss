@@ -37,14 +37,12 @@
 .name {
     font-family: 'Pulchella', serif;
     color: $main-color;
-    text-transform: uppercase;
     font-size: $extra-big;
 }
 
 .tag-line {
     font-family: 'Bosch', sans-serif;
-    color:$main-color;
-    text-transform: uppercase;
+    color: $main-color;
     font-size: $lrg-size;
 }
 
@@ -78,7 +76,6 @@
        margin: 3.75rem 8rem;
     }
 }
-
 
 .cta-work {
     border: none;
@@ -117,24 +114,12 @@
         text-align: left;
     }
 
-    .technical-skills {
-        font-family: 'PT Serif', serif;
-        font-size: 1.2rem;
-        text-align: left;
-        max-width: 320px;
-        
-        @media (min-width: $laptop) {
-            max-width: 600px;
-        }
-
-    }
-
     .me {
         max-width: 200px;
-        border-radius: 80%;
+        // border-radius: 80%;
         @media (min-width: $lrgTablet) {
-           border-radius: 80%;
-            max-width: 300px
+        //    border-radius: 80%;
+            max-width: 300px;
         }
     }
 
@@ -143,52 +128,35 @@
         @media (min-width: $lrgTablet) {
             display: flex;
             flex-wrap: nowrap;
-            align-content: stretch;
-            padding: 20px 20px 20px 20px;
             justify-content: center;
             align-items: center;
             flex-direction: column-reverse;
+            p{
+                max-width: 600px;
+            }
         }
-
-        @media (min-width: $laptop) {
-            margin: 10px;
-        }
-        
     
     }
 
-    @media (min-width: $phone) {
-        bottom: 2rem;
-    }
-
     @media (min-width: $lrgTablet) {
-        bottom: 6rem;
+        bottom: 9rem;
     }
 
 
     @media (min-width: $laptop) {
         bottom: 6rem;
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: space-evenly;
-        align-items: center;
+ 
         p {
             margin: 10px auto;
             max-width: 450px;
             font-size: $mid-size;
-            max-width: 300px;
+            max-width: 600px;
         }
     }
 
     @media (min-width:$desktop) {
-        bottom: 5rem;
-        display: flex;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: space-evenly;
-        align-items: center;
-                p{
+
+    p{
             max-width: 600px;
         }
         
@@ -240,13 +208,23 @@ img {
     margin-top: 6.5rem;
 }
 
+.commandSlider__item {
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    // box-shadow: rgba(0, 0, 0, 0.25) -141px -129px 200px inset;
+    // transition: box-shadow 2s ease 0s;
+    margin: 0px auto;
+    padding: 0px 20px 23px;
+}
+
 
 
 .image-container {
     position: relative;
   
     img{
-        border: 3px solid white;
+        // border: 3px solid white;
         border-radius: 8px;
     }
 
@@ -453,13 +431,6 @@ img {
     cursor: pointer;
     margin: 0 auto;
     padding: 0px 20px 23px 20px;
-    box-shadow: inset -141px -129px 200px rgba(0, 0, 0, 0.25);
-
-
-    &:hover {
-        box-shadow: inset 141px 129px 200px rgba(0, 0, 0, 0.25);
-
-    }
 
     &_status {
         text-align: center;
@@ -475,21 +446,15 @@ img {
 
 
  button{
+     border: none;
     display: block;
     margin: 0 auto;
     background:white;
-	// border-bottom: 6px inset rgba(0,0,0,.5);
-	// border-left: 6px inset rgba(0,0,0,.5);
-	// border-right: 6px inset  rgba(90, 86, 86, 0.5);
-	// border-top: 6px inset rgba(103, 98, 98, 0.5);
-	// box-sizing: border-box;
     border-radius: 15px 15px;
-	color: $second-color;
 	cursor: pointer;
 	display: inline-block;
-	font-size: 1rem;
-    color: $second-color;
-	min-width: 50px;
+	font-size: 1rem;	
+    min-width: 50px;
 	width: 100px;
 
     @media (min-width: $lrgTablet){
@@ -569,22 +534,18 @@ img {
 }
 
 .individual-btn {
+    border: none;
     @media (min-width: $lrgTablet){
-    display: block;
-    margin: 20px auto;
-    background:white;
-	border-bottom: 6px inset rgba(0,0,0,.5);
-	border-left: 6px inset rgba(0,0,0,.5);
-	border-right: 6px inset rgba(255,255,255,.5);
-	border-top: 6px inset rgba(255,255,255,.5);
-	box-sizing: border-box;
-	color: $second-color;
-	cursor: pointer;
-	display: inline-block;
-	font-size: 1rem;
-    color: $second-color;
-	min-width: 50px;
-	width: 100px;
+        display: block;
+        margin: 0 auto;
+        background:white;
+        border-radius: 15px 15px;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1rem;	
+        min-width: 50px;
+        width: 100px;
+        border: none;
     }
 }
 
@@ -648,11 +609,16 @@ img {
 
 
 .cta-contact {
-    color:$second-color;
-    text-align: center;
     display: block;
     margin: 0 auto;
-    text-decoration: none;
+    background:white;
+    border-radius: 15px 15px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1rem;	
+    min-width: 50px;
+	width: 100px;
+    border: none;
 
 
 }

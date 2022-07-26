@@ -41,7 +41,7 @@ function IndividualWorkPage() {
                   <h3 className='indiv-mock-title'>{project.mockTitle}</h3>
                     <div className='mock-div'>{project.projectImage}</div>
                     <p className='description'>{project.description}</p>
-                    <Link to='/work'><button aria-label="work page" href='Work.js' className='individual-btn'> Back</button></Link>
+                    <Link to='/work'><button aria-label="work page" href='Work.js' className='individual-btn'> back</button></Link>
 
       </motion.div>         
       )}
