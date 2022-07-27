@@ -26,7 +26,7 @@ function About() {
         >about me</motion.h1>  
 
         <motion.div
-        whileHover={{ scale: 1.3 }}
+        whileHover={{ scale: 1.25}}
         onHoverStart={e => {}}
         onHoverEnd={e => {}}>
           <img className="me" src={require('../assets/images/me.png')} alt= 'Stelio Langaditis'></img>

@@ -129,8 +129,9 @@
         @media (min-width:$laptop) {
             object-fit: none;
             position: relative;
+            border-radius: 100% 0% 100% 0% / 13% 90% 10% 87%  ;
             max-width: 575px;
-            height: 500px;
+            height: 400px;
         }
 
 
@@ -177,6 +178,8 @@
 
     @media (min-width:$desktop) {
 
+        bottom: 16rem;
+
     p{
             max-width: 600px;
         }
@@ -184,8 +187,8 @@
     }
 
     @media (min-width:$lrgDesktop){
-        bottom: 10rem;
         h1{
+            margin: 10px 0;
             font-size: $extra-big;
         }
         p {
@@ -511,6 +514,10 @@
         padding: 10px 0px 10px 0px;
     }
 
+    p {
+        text-align: left;
+    }
+
     h3,
     h4 {
         text-decoration: underline;
@@ -522,6 +529,10 @@
             margin: 0 auto;
             max-width: 50rem;
         }
+    }
+
+    img {
+        border-radius: 8px;
     }
 
 }
@@ -542,7 +553,7 @@
 
 .indiv-img,
 .mock-div {
-    border: 3px solid white;
+    // border: 3px solid white;
     border-radius: 8px;
     margin: 0 auto;
     

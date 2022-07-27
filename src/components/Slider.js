@@ -18,25 +18,39 @@ export default function SimpleSlider() {
             key: 1
         },
         {
+            image: ProjectData[4].image,
+            caption: ProjectData[4].title,
+            overview: ProjectData[4].overview,
+            id: ProjectData[4].slug,
+            key: 2
+        },
+        {
+          image: ProjectData[5].image,
+          caption: ProjectData[5].title,
+          overview: ProjectData[5].overview,
+          id: ProjectData[5].slug,
+          key: 3
+      },
+        {
             image: ProjectData[3].image,
             caption: ProjectData[3].title,
             overview: ProjectData[3].overview,
             id: ProjectData[3].slug,
-            key: 2
+            key: 4
         },
         {
             image: ProjectData[0].image,
             caption: ProjectData[0].title,
             overview: ProjectData[0].overview,
             id: ProjectData[0].slug,
-            key: 3
+            key: 5
         },
         {
           image: ProjectData[1].image,
           caption: ProjectData[1].title,
           overview: ProjectData[1].overview,
           id: ProjectData[1].slug,
-          key: 4
+          key: 6
         }
       ]
 
