@@ -97,7 +97,7 @@
 
 .about-container {
     position: fixed;
-    bottom: 0rem;
+    bottom: 5rem;
     color: $main-color;
     width: 100%;
     padding: 20px;
@@ -114,13 +114,10 @@
     }
 
     .me {
-        object-fit: cover;
-        width: 100vw;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1;
+        border-radius: 8px;
+        max-width: 250;
+
+
         @media (min-width: $lrgTablet) {
             max-width: 300px;
         }
@@ -208,7 +205,7 @@
 }
 
 .slide-container section {
-    margin-top: 6.4rem;
+    margin-top: 8rem;
 
     @media (min-width:$laptop) {
         margin-top: 3rem;
@@ -416,6 +413,7 @@
     display: block;
     margin: 0 auto;
     background:white;
+    color:rgb(49, 48, 48);
     border-radius: 15px 15px;
 	cursor: pointer;
 	display: inline-block;
@@ -462,7 +460,6 @@
 
     h3,
     h4 {
-        // text-decoration: underline;
         color: $main-color;
     }
 
@@ -502,11 +499,13 @@
 }
 
 .individual-btn {
+    color:rgb(49, 48, 48);
     border: none;
     @media (min-width: $lrgTablet){
         display: block;
         margin: 0 auto;
         background:white;
+        color:rgb(49, 48, 48);
         border-radius: 15px 15px;
         cursor: pointer;
         display: inline-block;
@@ -582,6 +581,7 @@
     display: block;
     margin: 0 auto;
     background:white;
+    color:rgb(49, 48, 48);
     border-radius: 15px 15px;
 	cursor: pointer;
 	display: inline-block;
