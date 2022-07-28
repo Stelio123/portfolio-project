@@ -1,5 +1,4 @@
 import React from 'react'
-// import backgroundVideo from '../assets/videos/aboutme2.mp4';
 import { motion} from 'framer-motion';
 
 function About() {
@@ -8,14 +7,8 @@ function About() {
 
   return (
  <main className='main-about'>
-    {/* <video playsInline autoPlay loop muted paused id="myVideo">
-      <source src={backgroundVideo} type="video/mp4"/>
-    </video>    */}
+
      <div 
-    //  initial    ={{scaleY: 0}}
-    //  animate    ={{scaleY: 1}}
-    //  exit       ={{scaleY: 0}}
-    //  transition ={{duration:0.5}}
      className  ='about-container'>
         <motion.h1
         initial    ={{scaleY: 0}}

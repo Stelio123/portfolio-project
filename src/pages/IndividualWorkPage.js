@@ -2,7 +2,6 @@ import React from 'react';
 import { ProjectData } from '../components/ProjectData';
 import {useParams} from 'react-router-dom';
 import  {useEffect, useState} from 'react'; 
-// import backgroundVideo from '../assets/videos/work-video3.mp4';
 import {motion} from 'framer-motion';
 import {Link} from 'react-router-dom';
 
@@ -22,9 +21,7 @@ function IndividualWorkPage() {
 
   return (
     <main className='main-individual'>
-       {/* <video playsInline autoPlay loop muted paused id="myVideo">
-      <source src={backgroundVideo} type="video/mp4"/>
-    </video>   */}
+ 
       {project !== null && (
        <motion.div 
        initial    ={{scaleY: 0}}
