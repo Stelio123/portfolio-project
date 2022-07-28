@@ -54,6 +54,7 @@
     z-index: -1;
 
     @media (min-width: $laptop) {
+        border-radius: 8px;
         width: 50%;
         height: 50%;
         left: 17rem;
