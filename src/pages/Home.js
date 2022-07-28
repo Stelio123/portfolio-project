@@ -22,9 +22,7 @@ function Home() {
     transition ={{duration: 1.5}}
     className  ='home-container'>
       <h1 className='name'>Stelio Langaditis</h1>
-      <p className='tag-line'>front-end web developer 
-      <br/> +
-      <br/>designer</p>
+      <p className='tag-line'>Front-End Web Developer</p>
       <div className='btn-container'>
         <Link to='work'><button aria-label="work page" className='cta-work'>enter</button></Link>
       </div>

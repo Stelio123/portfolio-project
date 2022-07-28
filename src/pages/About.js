@@ -19,11 +19,11 @@ function About() {
      className  ='about-container'>
         <motion.h1
         initial    ={{scaleY: 0}}
-        animate    ={{scaleY: 3, rotate: 360}}
+        animate    ={{scaleY: 1, rotate: 360}}
         exit       ={{scaleY: 6}}
         transition ={{duration:0.5}}
 
-        >about me</motion.h1>  
+        >About Me</motion.h1>  
 
         <motion.div
         whileHover={{ scale: 1.25}}
@@ -37,10 +37,10 @@ function About() {
           whileHover={{ scale: 1.2}}
           onHoverStart={e => {}}
           onHoverEnd={e => {}}>        
-            <p>dedicated, self-motivated, creative, and passionate front-end web 
-            developer + designer following industry best practices. <br/>skilled at developing 
+            <p>Dedicated, self-motivated, creative, and passionate front-end web 
+            developer following industry best practices. <br/>Skilled at developing 
             cutting-edge web applications that work across multiple platforms. <br/></p>
-            <p>based in vancouver, bc.</p>
+            <p>Based in vancouver, bc.</p>
           </motion.div>
         </section>
       </div>

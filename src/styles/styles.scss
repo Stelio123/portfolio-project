@@ -19,6 +19,8 @@
 //Imports
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Spline+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
 
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
@@ -31,4 +33,9 @@
 @font-face {
     font-family: 'Pulchella';
     src: local('Pulchella'), url(../assets/fonts/Pulchella.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans-Medium';
+    src: local('FiraSans-Medium') url(../assets/fonts/FiraSans-Medium.ttf) format('truetype');
 }
