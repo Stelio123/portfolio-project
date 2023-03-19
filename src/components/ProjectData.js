@@ -50,6 +50,7 @@ export const ProjectData = [
     {
         title: 'Coming Soon',
         image: require('../assets/images/pwb-2.png'),
+        summary: require,
         slug: 'pwb'
     },
     {
