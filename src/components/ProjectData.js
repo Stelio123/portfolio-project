@@ -49,7 +49,7 @@ export const ProjectData = [
     },
     {
         title: 'Camp Metamorphosis British Columbia',
-        // image: require('../assets/images/kaisereck (1).png'),
+        image: require('../assets/images/kaisereck-deli.png'),
         summary: '',
         slug: 'campmet'
     },
@@ -65,7 +65,7 @@ export const ProjectData = [
     },
     {
         title: 'PrettyWeirdBoy',
-        image: require('..assets/images/pwb-2.png'),
+        image: require('../assets/images/pwb-2.png'),
         slug: 'pwb'
     }
 
