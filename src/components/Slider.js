@@ -11,47 +11,62 @@ export default function SimpleSlider() {
     const projects = [
 
         {
-            image: ProjectData[2].image,
-            caption: ProjectData[2].title,
-            overview: ProjectData[2].overview,
-            id: ProjectData[2].slug,
-            key: 1
-        },
-        {
             image: ProjectData[4].image,
             caption: ProjectData[4].title,
             overview: ProjectData[4].overview,
             id: ProjectData[4].slug,
+            key: 1
+        },
+        {
+            image: ProjectData[5].image,
+            caption: ProjectData[5].title,
+            overview: ProjectData[5].overview,
+            id: ProjectData[5].slug,
             key: 2
         },
         {
-          image: ProjectData[5].image,
-          caption: ProjectData[5].title,
-          overview: ProjectData[5].overview,
-          id: ProjectData[5].slug,
+          image: ProjectData[6].image,
+          caption: ProjectData[6].title,
+          overview: ProjectData[6].overview,
+          id: ProjectData[6].slug,
           key: 3
       },
         {
-            image: ProjectData[3].image,
-            caption: ProjectData[3].title,
-            overview: ProjectData[3].overview,
-            id: ProjectData[3].slug,
+            image: ProjectData[7].image,
+            caption: ProjectData[7].title,
+            overview: ProjectData[7].overview,
+            id: ProjectData[7].slug,
             key: 4
         },
         {
-            image: ProjectData[0].image,
-            caption: ProjectData[0].title,
-            overview: ProjectData[0].overview,
-            id: ProjectData[0].slug,
+            image: ProjectData[2].image,
+            caption: ProjectData[2].title,
+            overview: ProjectData[2].overview,
+            id: ProjectData[2].slug,
             key: 5
+        },
+        {
+          image: ProjectData[3].image,
+          caption: ProjectData[3].title,
+          overview: ProjectData[3].overview,
+          id: ProjectData[3].slug,
+          key: 6
+        }, 
+        {
+          image: ProjectData[0].image,
+          caption: ProjectData[0].title,
+          overview: ProjectData[0].overview,
+          id: ProjectData[0].slug,
+          key: 7
         },
         {
           image: ProjectData[1].image,
           caption: ProjectData[1].title,
           overview: ProjectData[1].overview,
           id: ProjectData[1].slug,
-          key: 6
+          key: 8
         }
+          
       ]
 
 

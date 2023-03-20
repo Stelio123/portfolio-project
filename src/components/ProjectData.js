@@ -48,16 +48,26 @@ export const ProjectData = [
         slug: 'portfolio'
     },
     {
-        title: 'Coming Soon',
-        image: require('../assets/images/kaisereck (1).png'),
-        summary: require,
-        slug: 'pwb'
+        title: 'Camp Metamorphosis British Columbia',
+        // image: require('../assets/images/kaisereck (1).png'),
+        summary: '',
+        slug: 'campmet'
     },
     {
-        title: 'Coming Soon',
+        title: 'Kaisereck Delicatessen',
+        image: require('../assets/images/green-2.png'),
+        slug: 'deli'
+    },
+    {
+        title: 'Green Schools Green Future',
         image: require('../assets/images/green-2.png'),
         slug: 'green'
     },
+    {
+        title: 'PrettyWeirdBoy',
+        image: require('..assets/images/pwb-2.png'),
+        slug: 'pwb'
+    }
 
 
 ]
