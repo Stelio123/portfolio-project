@@ -179,6 +179,9 @@
     }
 
     @media (min-width:$lrgDesktop){
+
+        bottom: 23rem;
+
         h1{
             margin: 10px 0;
             font-size: $extra-big;
