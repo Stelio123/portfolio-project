@@ -49,7 +49,7 @@ export const ProjectData = [
     },
     {
         title: 'Coming Soon',
-        image: require('../assets/images/kaisereck.png'),
+        image: require('../assets/images/kaisereck (1).png'),
         summary: require,
         slug: 'pwb'
     },
